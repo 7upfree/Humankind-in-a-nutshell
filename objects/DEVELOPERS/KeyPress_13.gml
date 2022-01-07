@@ -1,0 +1,1 @@
+add_symbol(cur_sym);
