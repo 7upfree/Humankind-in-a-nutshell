@@ -32,7 +32,7 @@ if (destroy_timer == 0)
 	}
 	else if (type == 12)	// Pearl
 	{
-		gold += 1+pearl;
+		gold += (1+pearl)*(1+pharos);
 	}
 	else if (type == 22)	// Production
 	{

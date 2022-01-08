@@ -1,6 +1,5 @@
 #macro technology_count 21
 #macro symbol_count 28
-#macro faci_count 10
 #macro infobox_x 520
 
 #region player stats
@@ -18,6 +17,7 @@ globalvar s_turn;
 globalvar s_prodCount;
 globalvar h_turnProd;
 globalvar h_curProd;
+#region ds list initialisation
 h_food = ds_list_create();
 s_cp = ds_list_create();
 s_armor = ds_list_create();
@@ -25,6 +25,7 @@ s_turn = ds_list_create();
 s_prodCount = ds_list_create();
 h_turnProd = ds_list_create();
 h_curProd = ds_list_create();
+#endregion
 
 globalvar available;
 available = ds_list_create();
@@ -66,11 +67,9 @@ discount_unique = 0;
 
 globalvar discount_all;
 discount_all = 0;
-
 #endregion
 
 #region food extra
-
 globalvar fruits;
 fruits = 0;
 globalvar wheat;
@@ -85,4 +84,11 @@ globalvar fish;
 fish = 0;
 globalvar pearl;
 pearl = 0;
+#endregion
+
+#region facility extra
+globalvar pyramid;
+pyramid = -1;
+globalvar pharos;
+pharos = 0;
 #endregion

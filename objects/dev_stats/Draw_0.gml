@@ -11,6 +11,5 @@ if (keyboard_check(vk_down))
 		xx++;
 	}
 	
-	draw_text(70, 10, main);
-	draw_text(130, 10, object);
+	draw_text(70, 10, fruits);
 }

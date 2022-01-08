@@ -2,8 +2,8 @@ randomize();
 
 if (all_down(-1) && spinable == 1)
 {
-	
 spinable = 0;
+
 #region clean owned
 
 var ox = 0;
@@ -27,7 +27,6 @@ while (ox < ds_list_size(owned))
 }
 
 #endregion
-
 
 
 
@@ -72,7 +71,6 @@ soldout[| 3] = 0;
 #endregion
 
 #endregion
-
 
 
 

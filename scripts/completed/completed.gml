@@ -4,12 +4,12 @@ function completed(type){
 	if (type == 23)
 	{
 		owned[| main] = 0;
-		facil[| 1]++;
+		add_facility(1);
 	}
 	else if (type == 24)
 	{
 		owned[| main] = 0;
-		facil[| 2]++;
+		add_facility(2);
 	}
 	else if (type == 26)
 	{

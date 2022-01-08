@@ -1,12 +1,7 @@
 globalvar facil;
 facil = ds_list_create();
-
-var xx = 0;
-while (xx < faci_count)
-{
-	ds_list_add(facil, 0);
-	xx++;
-}
+globalvar facil_count;
+facil_count = ds_list_create();
 
 globalvar facility_ship;
 globalvar faci_page;
