@@ -8,6 +8,7 @@ rice = floor(faci_index(1)/2)*2;
 //pasture
 cow = floor(faci_index(2)/2)*2;
 sheep = floor(faci_index(2)/2);
+horse_food = floor(faci_index(2)/2);
 
 //fisherboat
 fish = floor(faci_index(3)/2);
@@ -15,6 +16,7 @@ pearl = floor(faci_index(3)/2);
 
 //stable
 turnProdExtra = floor(faci_index(4)/2);
+horse_prod = floor(faci_index(4)/2);
 
 //library
 

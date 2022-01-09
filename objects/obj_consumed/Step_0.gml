@@ -26,6 +26,11 @@ if (destroy_timer == 0)
 		add_food(1+sheep);
 		gold += 1+sheep;
 	}
+	else if (type == 10)	// Horse
+	{
+		add_food(1+horse_food);
+		h_curProd[| main] = horse_prod;
+	}
 	else if (type == 11)	// Fish
 	{
 		add_food(1+fish);

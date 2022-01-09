@@ -5,6 +5,8 @@
 #region player stats
 globalvar gold;
 gold = 0;
+globalvar goldTurn;
+goldTurn = 1;
 #endregion
 
 globalvar owned;
@@ -84,6 +86,11 @@ globalvar fish;
 fish = 0;
 globalvar pearl;
 pearl = 0;
+globalvar horse_food;
+horse_food = 0;
+globalvar horse_prod;
+horse_prod = 0;
+
 #endregion
 
 #region facility extra

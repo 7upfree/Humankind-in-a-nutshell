@@ -6,6 +6,9 @@ tech = ds_list_create();
 globalvar inspiration;
 inspiration = 0;
 
+globalvar inspi_turn;
+inspi_turn = 1;
+
 globalvar techBox_ship;
 techBox_ship = 0;
 
