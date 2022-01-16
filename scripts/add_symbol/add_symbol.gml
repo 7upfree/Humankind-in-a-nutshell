@@ -8,7 +8,7 @@ function add_symbol(type){
 	{
 		create_profile(10, -1, -1, -1, -1);
 	}
-	else if (isBaseType(type))
+	else if (isBaseType(type) || type == 21)
 	{
 		create_profile(-1, -1, -1, -1, 0);
 	}

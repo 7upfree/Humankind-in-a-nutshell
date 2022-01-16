@@ -63,6 +63,11 @@ while(prodx < ds_list_size(h_curProd))
 }
 #endregion
 
+#region stats update
+gold += goldTurn;
+inspiration += inspi_turn;
+#endregion
+
 #region reset soldout ds_list
 soldout[| 0] = 0;
 soldout[| 1] = 0;

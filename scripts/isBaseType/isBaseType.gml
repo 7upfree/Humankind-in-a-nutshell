@@ -1,8 +1,13 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function isBaseType(type){
-	if (type == 21) {return true;}
-	else if (type == 23) {return true;}
+	if (type == 23) {return true;}
 	else if (type == 24) {return true;}
+	else if (type == 31) {return true;}
+	else if (type == 32) {return true;}
+	else if (type == 33) {return true;}
+	else if (type == 34) {return true;}
+	else if (type == 35) {return true;}
+	else if (type == 39) {return true;}
+	else if (type == 40) {return true;}
 	else {return false;}
 }

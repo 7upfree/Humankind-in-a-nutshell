@@ -24,12 +24,12 @@ if (destroy_timer == 0)
 	else if (type == 9)		// Sheep
 	{
 		add_food(1+sheep);
-		gold += 1+sheep;
+		add_gold(sheep);
 	}
 	else if (type == 10)	// Horse
 	{
 		add_food(1+horse_food);
-		h_curProd[| main] = horse_prod;
+		h_curProd[| main] += horse_prod;
 	}
 	else if (type == 11)	// Fish
 	{
@@ -37,7 +37,7 @@ if (destroy_timer == 0)
 	}
 	else if (type == 12)	// Pearl
 	{
-		gold += (1+pearl)*(1+pharos);
+		add_gold((1+pearl)*(1+pharos))
 	}
 	else if (type == 22)	// Production
 	{
@@ -51,6 +51,16 @@ if (destroy_timer == 0)
 	else if (type == 25)	// Rock
 	{
 		owned[| main] = 26;
+		owned[| object] = 0;
+	}
+	else if (type == 28)	// Bow & Arrow
+	{
+		owned[| main] = 29;
+		owned[| object] = 0;
+	}
+	else if (type == 36)	// Iron
+	{
+		owned[| main] = 37;
 		owned[| object] = 0;
 	}
 	

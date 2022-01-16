@@ -3,6 +3,49 @@
 function fourways(type, isFacility, inverse){
 	if (isFacility == 1)
 	{
+		if (inverse == 0)
+		{
+			draw_set_halign(fa_center);
+			draw_set_color(c_silver);
+			draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x+200,mouse_y+(150+(35*facilityDesc(type, 0))),false);
+			draw_set_color(c_dkgray);
+			draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x+200,mouse_y+(150+(35*facilityDesc(type, 0))),true);
+			draw_set_color(c_black);
+			draw_sprite_stretched(spr_facility, type, mouse_x+(infobox_x/2)-30, mouse_y+70, 60, 60);
+			draw_set_font(eng26);
+			draw_text(mouse_x+infobox_x/2,mouse_y+5, facilityDesc(type, 1));
+			draw_set_font(eng20);
+			draw_text(mouse_x+infobox_x/2,mouse_y+140, facilityDesc(type, 2));
+		}
+		else if (inverse == 1)
+		{
+		}
+		else
+		{
+			draw_set_halign(fa_center);
+			draw_set_color(c_silver);
+			draw_rectangle(mouse_x-infobox_x-100,mouse_y,mouse_x,mouse_y+(150+(25*facilityDesc(type, 0))),false);
+			draw_set_color(c_dkgray);
+			draw_rectangle(mouse_x-infobox_x-100,mouse_y,mouse_x,mouse_y+(150+(25*facilityDesc(type, 0))),true);
+			draw_set_color(c_black);
+			draw_sprite_stretched(spr_facility, type, mouse_x-((infobox_x+100)/2)-30, mouse_y+70, 60, 60);
+			draw_set_font(eng26);
+			draw_text(mouse_x-(infobox_x+100)/2,mouse_y+5, facilityDesc(type, 1));
+			draw_set_font(eng16);
+			draw_text(mouse_x-(infobox_x+100)/2,mouse_y+140, facilityDesc(type, 2));
+		}
+		
+		draw_set_font(eng14);
+		if (isSpecial(type))
+		{
+			draw_set_color(c_orange);
+			draw_text(mouse_x-(infobox_x+100)/2,mouse_y+45,"special facility");
+		}
+		else
+		{
+			draw_set_color(c_dkgray);
+			draw_text(mouse_x-(infobox_x+100)/2,mouse_y+40,"facility");
+		}
 	}
 	else
 	{

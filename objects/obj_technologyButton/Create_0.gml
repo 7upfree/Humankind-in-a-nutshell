@@ -3,6 +3,13 @@
 globalvar tech;
 tech = ds_list_create();
 
+var xx = 0
+while(xx < technology_count)
+{
+	ds_list_add(tech, 0);
+	xx++;
+}
+
 globalvar inspiration;
 inspiration = 0;
 

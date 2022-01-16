@@ -10,7 +10,7 @@ draw_reset();
 draw_exit_button();
 
 //gold
-draw_sprite(spr_gold, 0, 70, 70);
+draw_sprite_stretched(spr_gold, 0, 45, 45, 50, 50);
 draw_set_font(eng50);
 draw_set_colour(c_black);
 draw_text(130, 30, string(gold));

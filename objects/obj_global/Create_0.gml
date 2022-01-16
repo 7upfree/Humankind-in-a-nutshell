@@ -1,5 +1,5 @@
 #macro technology_count 21
-#macro symbol_count 28
+#macro symbol_count 41
 #macro infobox_x 520
 
 #region player stats
@@ -98,4 +98,11 @@ globalvar pyramid;
 pyramid = -1;
 globalvar pharos;
 pharos = 0;
+#endregion
+
+#region troop extra
+globalvar warrior;
+warrior = 0;
+globalvar swordman;
+swordman = 0;
 #endregion

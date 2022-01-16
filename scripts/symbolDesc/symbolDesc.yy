@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Interface",
-    "path": "folders/Scripts/Interface.yy",
+    "name": "most basic layer",
+    "path": "folders/Scripts/Interface/most basic layer.yy",
   },
   "resourceVersion": "1.0",
   "name": "symbolDesc",

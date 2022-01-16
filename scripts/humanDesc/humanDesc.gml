@@ -8,16 +8,20 @@ function humanDesc(type){
 	draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x,mouse_y+300,true);
 	
 	draw_set_alpha(0.2);
-	draw_sprite_stretched(spr_symbol, 22, mouse_x + infobox_x/2 - 125, mouse_y + 30, 250, 250);
+	draw_sprite_stretched(spr_symbol, 22, mouse_x + infobox_x/2 - 125, mouse_y + 40, 250, 250);
 	
 	draw_set_alpha(1);
 	draw_set_color(c_black);
 	draw_set_font(eng26);
 	draw_text(mouse_x+infobox_x/2,mouse_y+5, symbolDesc(type, 1));
+	draw_set_font(eng14);
+	draw_set_color(c_dkgray);
+	draw_text(mouse_x+infobox_x/2, mouse_y+50, "100 labour = 1 production");
 	
+	draw_set_color(c_black);
 	draw_set_font(eng55);
-	draw_text(mouse_x+infobox_x/2, mouse_y+110, string(h_curProd[| Id]) + "/100");
+	draw_text(mouse_x+infobox_x/2, mouse_y+120, string(h_curProd[| Id]) + "/100");
 	
 	draw_set_font(eng18);
-	draw_text(mouse_x+infobox_x/2, mouse_y+265, "+" + string(h_turnProd[| Id]) + "/turn");
+	draw_text(mouse_x+infobox_x/2, mouse_y+265, "+" + string(h_turnProd[| Id]) + " labour /turn");
 }

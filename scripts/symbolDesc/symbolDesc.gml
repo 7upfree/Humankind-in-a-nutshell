@@ -120,6 +120,21 @@ function symbolDesc(type, outcome){
 			return "+" + string(1+sheep) + " food and +" + string(sheep) + " gold.";
 		}
 	}
+	else if (type == 10)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Horse"
+		}
+		else if (outcome == 2)
+		{
+			return "+" + string(1+horse_food) + " food and\n+" + string(horse_prod) + " labour.";
+		}
+	}
 	else if (type == 11)
 	{
 		if (outcome == 0)
@@ -342,7 +357,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "A weapon to train\nwarrior.";
+			return "A weapon to build\nwarrior.";
 		}
 	}
 	else if (type == 26)
@@ -372,7 +387,202 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Destroyed when cp\nis below 0.";
+			return "Destroyed when armor\nis below 0.";
+		}
+	}
+	else if (type == 28)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Bow and arrow"
+		}
+		else if (outcome == 2)
+		{
+			return "A weapon to build\narcher.";
+		}
+	}
+	else if (type == 29)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Archer(training)"
+		}
+		else if (outcome == 2)
+		{
+			return "1 production required\nto train to Archer.";
+		}
+	}
+	else if (type == 30)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Archer"
+		}
+		else if (outcome == 2)
+		{
+			return "Destroyed when armor\nis below 0.";
+		}
+	}
+	else if (type == 31)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Boat Frame"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a fisherboat.";
+		}
+	}
+	else if (type == 32)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Lighthouse Base"
+		}
+		else if (outcome == 2)
+		{
+			return "3 Production required to\nbuild the pharos lighthouse.";
+		}
+	}
+	else if (type == 33)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Stable Plain"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a stable.";
+		}
+	}
+	else if (type == 34)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Pyramid Site"
+		}
+		else if (outcome == 2)
+		{
+			return "3 Productions required to\nbuild the pyramid.";
+		}
+	}
+	else if (type == 35)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Library Site"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a library.";
+		}
+	}
+	else if (type == 36)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Iron"
+		}
+		else if (outcome == 2)
+		{
+			return "A weapon to build\nswordman.";
+		}
+	}
+	else if (type == 37)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Swordman(training)"
+		}
+		else if (outcome == 2)
+		{
+			return "1 production required\nto train to swordman.";
+		}
+	}
+	else if (type == 38)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Swordman"
+		}
+		else if (outcome == 2)
+		{
+			return "Destroyed when armor\nis below 0.";
+		}
+	}
+	else if (type == 39)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Mine Mountain"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a mine.";
+		}
+	}
+	else if (type == 39)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Market Site"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a market.";
 		}
 	}
 	else

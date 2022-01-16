@@ -38,7 +38,7 @@ if (isHuman(Id))
 	draw_text(x+80, y+40, string(h_food[| Id]));
 	
 	draw_set_color(c_dkgray);
-	draw_text(x-80, y+40, string((100-h_curProd[| Id])/h_turnProd[| Id]));
+	draw_text(x-80, y+40, string(ceil((100-h_curProd[| Id])/h_turnProd[| Id])));
 	draw_reset();
 }
 else if (isBase(Id))
@@ -58,6 +58,18 @@ else if (isTroop(Id) || isEnemy(Id))
 	draw_set_color(c_black);
 	draw_text(x+80, y+40, string(s_armor[| Id]));
 	draw_reset();
+}
+
+#endregion
+
+#region settlement symbol
+
+if (isHuman(Id))
+{
+	if (h_food[| Id] < 50) {owned[| Id] = 1;}
+	else if (h_food[| Id] < 100) {owned[| Id] = 2;}
+	else if (h_food[| Id] < 200) {owned[| Id] = 3;}
+	else {owned[| Id] = 4;}
 }
 
 #endregion

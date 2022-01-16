@@ -8,7 +8,7 @@ if (symbol_type > 0)
 	draw_set_color(c_black);
 	draw_set_font(eng26);
 	draw_set_halign(fa_center);
-	draw_sprite(spr_gold, 0, x+227.5, y+620);
+	draw_sprite_stretched(spr_gold, 0, x+211.5, y+604, 32, 32);
 	draw_text(x+227.5, y+650, string(cost));
 	draw_reset();
 }
