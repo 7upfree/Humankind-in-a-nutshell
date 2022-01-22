@@ -1,4 +1,5 @@
 // Script assets have changed for v2.3.0 see
+// Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function symbolDesc(type, outcome){
 	if (type == 1)
@@ -117,7 +118,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "+" + string(1+sheep) + " food and +" + string(sheep) + " gold.";
+			return "+" + string(1+sheep_food) + " food and +" + string(sheep_gold) + " gold.";
 		}
 	}
 	else if (type == 10)
@@ -267,14 +268,14 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide random reward\nby 20% when destroyed.";
+			return "Provide loot when\ndestroyed.";
 		}
 	}
 	else if (type == 20)
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 3;
 		}
 		else if (outcome == 1)
 		{
@@ -282,7 +283,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide random reward\nwhen destroyed.";
+			return "Provide loot when\ndestroyed. 50% chance\nof better loot.";
 		}
 	}
 	else if (type == 21)
@@ -570,7 +571,7 @@ function symbolDesc(type, outcome){
 			return "1 Production required\nto build a mine.";
 		}
 	}
-	else if (type == 39)
+	else if (type == 40)
 	{
 		if (outcome == 0)
 		{
@@ -583,6 +584,66 @@ function symbolDesc(type, outcome){
 		else if (outcome == 2)
 		{
 			return "1 Production required\nto build a market.";
+		}
+	}
+	else if (type == 41)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Ancient Loot"
+		}
+		else if (outcome == 2)
+		{
+			return "Provide random rewards.";
+		}
+	}
+	else if (type == 42)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Ancient Loot+"
+		}
+		else if (outcome == 2)
+		{
+			return "Provide better rewards.";
+		}
+	}
+	else if (type == 43)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Settler's kit"
+		}
+		else if (outcome == 2)
+		{
+			return "Consume 10 foods and\nprovide a Settler.";
+		}
+	}
+	else if (type == 44)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Settler"
+		}
+		else if (outcome == 2)
+		{
+			return "1 production required\nfor a new settlement.";
 		}
 	}
 	else

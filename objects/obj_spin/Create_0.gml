@@ -14,3 +14,5 @@ globalvar spinable;
 spinable = 1;
 interact_slot = 0;
 ticket = 0;
+
+gmover = 0;

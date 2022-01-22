@@ -10,5 +10,6 @@ function isConsumable(iid){
 	else if (isWeapon(iid)) {return false;}
 	else if (isTroop(iid)) {return false;}
 	else if (isEnemy(iid)) {return false;}
+	else if (isTurnCons(iid)) {return false;}
 	else {return true;}
 }

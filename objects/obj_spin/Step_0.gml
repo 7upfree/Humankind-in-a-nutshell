@@ -1318,8 +1318,25 @@ if (interact)
 		}
 		interact_slot++;
 	}
-	else if (interact_slot == 60)
+	else if (interact_slot < 80)
 	{
+		var xg = interact_slot - 60;
+		main = slot[| xg];
+
+		if (isHuman(main))
+		{
+			gmover = 0;
+		}
+		interact_slot++;
+	}
+	else if (interact_slot == 80)
+	{
+		if (gmover == 1)
+		{
+			gameover = 1;
+			instance_create_layer(0,0,"gameover",obj_gameover);
+		}
+		
 		#region fill shuffled with symbols in available
 		ds_list_clear(shuffled);
 		var xx = 0;

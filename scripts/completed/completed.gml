@@ -64,4 +64,10 @@ function completed(type){
 		owned[| main] = 0;
 		add_facility(7);
 	}
+	else if (type == 44)	// settlers
+	{
+		owned[| main] = 0;
+		add_symbol(1);
+		view_in_slot();
+	}
 }

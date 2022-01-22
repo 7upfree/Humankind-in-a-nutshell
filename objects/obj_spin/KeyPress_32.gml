@@ -32,6 +32,21 @@ while (ox < ds_list_size(owned))
 
 #region Every turn
 
+gmover = 1;
+
+#region year management
+
+if (year < -2000)
+{
+	year += 100;
+}
+else if (year < 0)
+{
+	year += 25;
+}
+
+#endregion
+
 #region human food count goes down by 1
 
 var foodx = 0;
@@ -66,6 +81,7 @@ while(prodx < ds_list_size(h_curProd))
 #region stats update
 gold += goldTurn;
 inspiration += inspi_turn;
+barbProb += barbProbTurn;
 #endregion
 
 #region reset soldout ds_list
@@ -73,6 +89,45 @@ soldout[| 0] = 0;
 soldout[| 1] = 0;
 soldout[| 2] = 0;
 soldout[| 3] = 0;
+#endregion
+
+#region barbarian handle
+
+var outcome = 0;
+outcome = irandom_range(1, 100);
+if (outcome < barbProb)
+{
+	var leader = 0;
+	leader = irandom(4);
+	if (leader == 0)
+	{
+		add_symbol(20);
+		add_noti(12);
+	}
+	else
+	{
+		add_symbol(19);
+		add_noti(12);
+	}
+	barbProb = 0;
+}
+
+#endregion
+
+#region turn cosumables take turns
+var tx = 0;
+while (tx < ds_list_size(s_turn))
+{
+	if (s_turn[| tx] > 1)
+	{
+		s_turn[| tx]--;
+	}
+	else if (s_turn[| tx] == 1)
+	{
+		owned[| tx] = 0;
+	}
+	tx++;
+}
 #endregion
 
 #endregion

@@ -9,5 +9,6 @@ function isBaseType(type){
 	else if (type == 35) {return true;}
 	else if (type == 39) {return true;}
 	else if (type == 40) {return true;}
+	else if (type == 44) {return true;}
 	else {return false;}
 }

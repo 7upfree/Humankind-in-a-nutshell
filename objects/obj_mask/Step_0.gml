@@ -36,6 +36,12 @@ if (main == Id && main != -1)
 	mainY = y;
 }
 
+if (object == Id && object != -1)
+{
+	objX = x;
+	objY = y;
+}
+
 #endregion
 
 if (object == Id && object != -1)
@@ -71,6 +77,12 @@ if (object == Id && object != -1)
 		t_enemyAttack = 30;
 		t_enemy = -1;
 	}
+	else if (t_turn == 0)
+	{
+		instance_create_layer(x, y, "main01", obj_consumed);
+		turnEff = 20;
+		t_turn = -1;
+	}
 	
 	if (t_shakeO == 0)
 	{
@@ -81,7 +93,7 @@ if (object == Id && object != -1)
 }
 
 if (main == Id && t_shake == 0)
-{
+{	
 	owned[| main] = 0;
 	t_shake = -1;
 	interact = 1;

@@ -1,4 +1,7 @@
-function add_noti(iid) {
-	ds_list_add(notiStack, iid);
-	instance_create_layer(0, 20, "main02", obj_noti);
+function add_noti(type) {
+	ds_list_insert(notiStack, 0, notiTicket);
+	notiShip = type;
+	instance_create_layer(0, 30, "main02", obj_noti);
+	
+	notiTicket++;
 }

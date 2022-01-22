@@ -1,5 +1,5 @@
 #macro technology_count 21
-#macro symbol_count 41
+#macro symbol_count 45
 #macro infobox_x 520
 
 #region player stats
@@ -11,6 +11,9 @@ goldTurn = 1;
 
 globalvar owned;
 owned = ds_list_create();
+
+globalvar year;
+year = -4000;
 
 globalvar h_food;
 globalvar s_cp;
@@ -45,10 +48,16 @@ globalvar main;
 main = -100;
 globalvar object;
 object = -100;
+
 globalvar mainX;
 mainX = 0;
 globalvar mainY;
 mainY = 0;
+
+globalvar objX;
+objX = 0;
+globalvar objY;
+objY = 0;
 
 #endregion
 
@@ -80,8 +89,10 @@ globalvar rice;
 rice = 0;
 globalvar cow;
 cow = 0;
-globalvar sheep;
-sheep = 0;
+globalvar sheep_food;
+sheep_food = 0;
+globalvar sheep_gold;
+sheep_gold = 0;
 globalvar fish;
 fish = 0;
 globalvar pearl;
@@ -106,3 +117,6 @@ warrior = 0;
 globalvar swordman;
 swordman = 0;
 #endregion
+
+globalvar gameover;
+gameover = 0;

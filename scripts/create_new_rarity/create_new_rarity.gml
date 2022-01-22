@@ -46,6 +46,10 @@ function create_new_rarity(){
 	rarity[| 38] = 111;
 	rarity[| 39] = 3;
 	rarity[| 40] = 4;
+	rarity[| 41] = 1;
+	rarity[| 42] = 1;
+	rarity[| 43] = 4;
+	rarity[| 44] = 1;
 	
 	/*
 		0 = *null*

@@ -8,3 +8,6 @@ if (t_shakeO > 0) {t_shakeO--;}
 if (t_enemy > 0) {t_enemy--;}
 if (t_enemyAttack > 0) {t_enemyAttack--;}
 if (t_choice > 0) {t_choice--;}
+if (t_turn > 0) {t_turn--;}
+
+if (turnEff > 0) {turnEff--;}

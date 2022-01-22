@@ -18,4 +18,5 @@ function create_new_available(){
 	available[| 14] = 2;
 	available[| 21] = 20;
 	available[| 25] = 20;
+	available[| 43] = 2;
 }

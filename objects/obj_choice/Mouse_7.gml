@@ -1,4 +1,4 @@
-if (all_down(2))
+if (all_down(2) && y > 0)
 {
 	add_symbol(typeId);
 	view_in_slot();

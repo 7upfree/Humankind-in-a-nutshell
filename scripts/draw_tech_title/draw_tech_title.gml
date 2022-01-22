@@ -5,6 +5,7 @@ function draw_tech_title(tech_id)
 	draw_set_colour($555555);
 	draw_set_font(eng22);
 	draw_sprite(spr_inspirationLogo, 0, x+120, y+60);
+	var xs = 0;
 	if (tech_id == 0)
 	{
 		draw_text(x+xpos, y+ypos, "Agriculture");
@@ -59,4 +60,12 @@ function draw_tech_title(tech_id)
 	{
 		draw_text(x+120, y+20, "N/A");
 	}
+	
+	while (xs < sprite_get_number(id_to_icon(tech_id)))
+	{
+		draw_set_alpha(0.5);
+		draw_sprite(id_to_icon(tech_id), xs, x+25+(xs*80), y+117);
+		xs++;
+	}
+	draw_reset();
 }

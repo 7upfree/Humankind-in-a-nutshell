@@ -1,3 +1,5 @@
+#region turn production
+
 var xx = 0;
 while (xx < ds_list_size(owned))
 {
@@ -13,3 +15,26 @@ while (xx < ds_list_size(owned))
 	}
 	xx++;
 }
+
+#endregion
+
+#region extras real time1
+
+fruits = fruits_sum();
+wheat = wheat_sum();
+rice = rice_sum();
+cow = cow_sum();
+sheep_food = sheep_sum(0);
+sheep_gold = sheep_sum(1);
+horse_food = horse_sum(0);
+horse_prod = horse_sum(1);
+fish = fish_sum();
+pearl = pearl_sum();
+
+swordman = swordman_sum();
+
+turnProdExtra = turnProdExtra_sum();
+inspi_turn = inspi_turn_sum();
+goldTurn = goldTurn_sum();
+
+#endregion

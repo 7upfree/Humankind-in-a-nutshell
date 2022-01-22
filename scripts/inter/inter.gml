@@ -10,6 +10,11 @@ function inter(main_pos, object_pos){
 			interact = 0;
 			t_consumable = 1;
 		}
+		else if (isTurnCons(object))
+		{
+			interact = 0;
+			t_turn = 1;
+		}
 	}
 	else if (isBase(main))
 	{

@@ -1,13 +1,18 @@
-if (symbol_type > 0)//&& gold >= cost
+if (symbol_type > 0 && gold >= cost)
 {
 	add_symbol(symbol_type);
+	view_in_slot();
 	
 	soldout[| card_id] = 1;
 	symbol_type = 0;
 	
-	//gold -= cost;
+	gold -= cost;
+}
+else if (symbol_type < 1)
+{
+	instance_create_layer(mouse_x, mouse_y, "windows02", eff_notAvailable);
 }
 else if (gold < cost)
 {
-	// not enough gold
+	instance_create_layer(mouse_x, mouse_y, "windows02", eff_notEnoughGold);
 }

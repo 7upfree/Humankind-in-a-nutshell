@@ -10,5 +10,6 @@ function isBase(iid){
 	else if (owned[| iid] == 35) {return true;}
 	else if (owned[| iid] == 39) {return true;}
 	else if (owned[| iid] == 40) {return true;}
+	else if (owned[| iid] == 44) {return true;}
 	else {return false;}
 }
