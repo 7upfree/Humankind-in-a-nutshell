@@ -6,7 +6,7 @@
     "path": "folders/Scripts/STATS UPDATE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "swordman_sum",
+  "name": "armour1_sum",
   "tags": [],
   "resourceType": "GMScript",
 }

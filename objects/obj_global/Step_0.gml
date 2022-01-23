@@ -11,7 +11,7 @@ while (xx < ds_list_size(owned))
 		else if (h_food[| xx] < 200) {size = 2;}
 		else {size = 3;}
 		
-		h_turnProd[| xx] = 10.0 + (size*5.0) + turnProdExtra;
+		h_turnProd[| xx] = 15.0 + (size*5.0) + turnProdExtra;
 	}
 	xx++;
 }
@@ -31,7 +31,7 @@ horse_prod = horse_sum(1);
 fish = fish_sum();
 pearl = pearl_sum();
 
-swordman = swordman_sum();
+armour1 = armour1_sum();
 
 turnProdExtra = turnProdExtra_sum();
 inspi_turn = inspi_turn_sum();

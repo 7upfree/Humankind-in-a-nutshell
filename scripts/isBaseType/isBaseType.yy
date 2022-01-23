@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "isFunctions",
-    "path": "folders/Scripts/isFunctions.yy",
+    "name": "Type",
+    "path": "folders/Scripts/isFunctions/Type.yy",
   },
   "resourceVersion": "1.0",
   "name": "isBaseType",

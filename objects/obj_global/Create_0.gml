@@ -114,8 +114,8 @@ pharos = 0;
 #region troop extra
 globalvar warrior;
 warrior = 0;
-globalvar swordman;
-swordman = 0;
+globalvar armour1;
+armour1 = 0;
 #endregion
 
 globalvar gameover;

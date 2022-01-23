@@ -20,24 +20,8 @@ else if (turnEff > 0 && object == Id)
 else
 {
 	draw_self();
+	draw_text(x, y, string(Id));
 }
-
-#region indicator
-if (main == Id && pos == obj_spin.interact_slot)
-{
-	draw_set_colour(c_green);
-	draw_set_alpha(0.3);
-	draw_rectangle(x-105, y-100, x+105, y+100, 0);
-	draw_reset();
-}
-else if (main == Id && pos == obj_spin.interact_slot-20)
-{
-	draw_set_colour(c_red);
-	draw_set_alpha(0.3);
-	draw_rectangle(x-105, y-100, x+105, y+100, 0);
-	draw_reset();
-}
-#endregion
 
 #region draw stats
 

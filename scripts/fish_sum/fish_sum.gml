@@ -1,6 +1,6 @@
 function fish_sum(){
 	var sum = 
-	(floor(faci_index(3)/2));
+	faci_index(3);
 	
 	return sum;
 }

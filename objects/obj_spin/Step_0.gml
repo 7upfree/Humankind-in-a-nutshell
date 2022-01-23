@@ -4,7 +4,11 @@ if (interact)
 	{
 		if (interact_slot == 0)
 		{
-			if (ticket == 0)
+			if (!isFirstInter(slot[| 0]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(0, 1);
 				ticket++;
@@ -24,7 +28,11 @@ if (interact)
 		else if (interact_slot == 1)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-1);
 				ticket++;
@@ -54,7 +62,11 @@ if (interact)
 		else if (interact_slot == 2)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-1);
 				ticket++;
@@ -84,7 +96,11 @@ if (interact)
 		else if (interact_slot == 3)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-1);
 				ticket++;
@@ -114,7 +130,11 @@ if (interact)
 		else if (interact_slot == 4)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-1);
 				ticket++;
@@ -134,7 +154,11 @@ if (interact)
 		else if (interact_slot == 5)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-5);
 				ticket++;
@@ -164,7 +188,11 @@ if (interact)
 		else if (interact_slot == 6)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -209,7 +237,11 @@ if (interact)
 		else if (interact_slot == 7)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -254,7 +286,11 @@ if (interact)
 		else if (interact_slot == 8)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -299,7 +335,11 @@ if (interact)
 		else if (interact_slot == 9)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -329,7 +369,11 @@ if (interact)
 		else if (interact_slot == 10)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-5);
 				ticket++;
@@ -359,7 +403,11 @@ if (interact)
 		else if (interact_slot == 11)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -404,7 +452,11 @@ if (interact)
 		else if (interact_slot == 12)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -449,7 +501,11 @@ if (interact)
 		else if (interact_slot == 13)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -494,7 +550,11 @@ if (interact)
 		else if (interact_slot == 14)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -524,7 +584,11 @@ if (interact)
 		else if (interact_slot == 15)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-5);
 				ticket++;
@@ -544,7 +608,11 @@ if (interact)
 		else if (interact_slot == 16)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -574,7 +642,11 @@ if (interact)
 		else if (interact_slot == 17)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -604,7 +676,11 @@ if (interact)
 		else if (interact_slot == 18)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -634,7 +710,11 @@ if (interact)
 		else if (interact_slot == 19)
 		{
 			var a = interact_slot;
-			if (ticket == 0)
+			if (!isFirstInter(slot[| a]))
+			{
+				interact_slot++;
+			}
+			else if (ticket == 0)
 			{
 				inter(a, a-6);
 				ticket++;
@@ -652,11 +732,16 @@ if (interact)
 			}
 		}
 	}
-	else if (interact_slot < 40)
+		else if (interact_slot < 40)
 	{
 		if (interact_slot == 20)
 		{
-			if (ticket == 0)
+			if (!isEnemy(slot[| 0]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(0, 1);
 				ticket++;
@@ -676,7 +761,12 @@ if (interact)
 		else if (interact_slot == 21)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-1);
 				ticket++;
@@ -706,7 +796,12 @@ if (interact)
 		else if (interact_slot == 22)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-1);
 				ticket++;
@@ -736,7 +831,12 @@ if (interact)
 		else if (interact_slot == 23)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-1);
 				ticket++;
@@ -766,7 +866,12 @@ if (interact)
 		else if (interact_slot == 24)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-1);
 				ticket++;
@@ -786,7 +891,12 @@ if (interact)
 		else if (interact_slot == 25)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-5);
 				ticket++;
@@ -816,7 +926,12 @@ if (interact)
 		else if (interact_slot == 26)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -861,7 +976,12 @@ if (interact)
 		else if (interact_slot == 27)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -906,7 +1026,12 @@ if (interact)
 		else if (interact_slot == 28)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -951,7 +1076,12 @@ if (interact)
 		else if (interact_slot == 29)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -981,7 +1111,12 @@ if (interact)
 		else if (interact_slot == 30)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-5);
 				ticket++;
@@ -1011,7 +1146,12 @@ if (interact)
 		else if (interact_slot == 31)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1056,7 +1196,12 @@ if (interact)
 		else if (interact_slot == 32)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1101,7 +1246,12 @@ if (interact)
 		else if (interact_slot == 33)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1146,7 +1296,12 @@ if (interact)
 		else if (interact_slot == 34)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1176,7 +1331,12 @@ if (interact)
 		else if (interact_slot == 35)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-5);
 				ticket++;
@@ -1196,7 +1356,12 @@ if (interact)
 		else if (interact_slot == 36)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1226,7 +1391,12 @@ if (interact)
 		else if (interact_slot == 37)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1256,7 +1426,12 @@ if (interact)
 		else if (interact_slot == 38)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1286,7 +1461,12 @@ if (interact)
 		else if (interact_slot == 39)
 		{
 			var a = interact_slot - 20;
-			if (ticket == 0)
+			if (!isEnemy(slot[| a]))
+			{
+				interact_slot++;
+				ticket = 0;
+			}
+			else if (ticket == 0)
 			{
 				inter2(a, a-6);
 				ticket++;
@@ -1318,19 +1498,19 @@ if (interact)
 		}
 		interact_slot++;
 	}
-	else if (interact_slot < 80)
+	else if (interact_slot == 60)
 	{
-		var xg = interact_slot - 60;
-		main = slot[| xg];
-
-		if (isHuman(main))
+		var xg = 0;
+		while (xg < ds_list_size(owned))
 		{
-			gmover = 0;
+			if (isHuman(xg))
+			{
+				gmover = 0;
+				break;
+			}
+			xg++;
 		}
-		interact_slot++;
-	}
-	else if (interact_slot == 80)
-	{
+		
 		if (gmover == 1)
 		{
 			gameover = 1;

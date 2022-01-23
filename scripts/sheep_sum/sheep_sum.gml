@@ -4,11 +4,11 @@ function sheep_sum(output){
 	
 	if (output == 0)	// food
 	{
-		sum = (floor(faci_index(2)/3)*2);
+		sum = (floor(faci_index(2)/2)*2);
 	}
 	else				// gold
 	{
-		sum = (floor(faci_index(2)/3)*2);
+		sum = (floor(faci_index(2)/2)*2);
 	}
 	
 	return sum;

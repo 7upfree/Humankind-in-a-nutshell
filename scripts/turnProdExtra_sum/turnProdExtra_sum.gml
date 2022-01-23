@@ -1,6 +1,6 @@
 function turnProdExtra_sum(){
 	var sum = 
-	(floor(faci_index(4)/2));
+	faci_index(4);
 	
 	return sum;
 }

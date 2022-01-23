@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Type",
-    "path": "folders/Scripts/isFunctions/Type.yy",
+    "name": "layer 2",
+    "path": "folders/Scripts/isFunctions/layer 2.yy",
   },
   "resourceVersion": "1.0",
-  "name": "isHumanType",
+  "name": "isFirstInter",
   "tags": [],
   "resourceType": "GMScript",
 }

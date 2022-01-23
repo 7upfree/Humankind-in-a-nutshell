@@ -215,7 +215,7 @@ function inspiDesc(type, nth, outcome){
 			}
 			else if (outcome == 2)
 			{
-				return "Build a mine to enhance armour of\nswordman.\n\nfacility\n1 production required"
+				return "Build a mine to enhance armour of\nancient troops.\n\nfacility\n1 production required"
 			}
 		}
 		else

@@ -11,10 +11,10 @@ function howMuch(cardId){
 	}
 	else if (cardId == 2)
 	{
-		return 20+discount_all+discount_rare;
+		return 15+discount_all+discount_rare;
 	}
 	else if (cardId == 3)
 	{
-		return 40+discount_all+discount_unique;
+		return 20+discount_all+discount_unique;
 	}
 }

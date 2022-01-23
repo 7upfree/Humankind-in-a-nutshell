@@ -4,11 +4,11 @@ function horse_sum(output){
 	
 	if (output == 0)	// food
 	{
-		sum = (floor(faci_index(2)/3)*2);
+		sum = (floor(faci_index(2)/2)*2);
 	}
 	else				// prod
 	{
-		sum = (floor(faci_index(4)/2));
+		sum = faci_index(4);
 	}
 	
 	return sum;
