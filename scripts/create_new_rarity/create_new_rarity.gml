@@ -19,7 +19,7 @@ function create_new_rarity(){
 	rarity[| 11] = 1;
 	rarity[| 12] = 2;
 	rarity[| 13] = 4;
-	rarity[| 14] = 4;
+	rarity[| 14] = 3;
 	rarity[| 15] = 11;
 	rarity[| 16] = 11;
 	rarity[| 17] = 11;

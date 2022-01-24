@@ -7,6 +7,7 @@ if (interact)
 			if (!isFirstInter(slot[| 0]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -31,6 +32,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -65,6 +67,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -99,6 +102,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -133,6 +137,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -157,6 +162,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -191,6 +197,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -240,6 +247,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -289,6 +297,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -338,6 +347,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -372,6 +382,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -406,6 +417,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -455,6 +467,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -504,6 +517,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -553,6 +567,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -587,6 +602,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -611,6 +627,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -645,6 +662,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -679,6 +697,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{
@@ -713,6 +732,7 @@ if (interact)
 			if (!isFirstInter(slot[| a]))
 			{
 				interact_slot++;
+				ticket = 0;
 			}
 			else if (ticket == 0)
 			{

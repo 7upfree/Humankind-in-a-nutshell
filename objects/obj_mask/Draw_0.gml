@@ -6,6 +6,28 @@ else if (t_shakeO > 0 && object == Id)
 {
 	draw_sprite_ext(sprite_index, image_index, x  + irandom_range(-5, 5), y + irandom_range(-5, 5), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
 }
+else if (t_enemyAttack-20 > 0 && main == Id)
+{
+	if (t_enemyAttack-20 > 5)
+	{
+		draw_sprite_ext(sprite_index, image_index, mainX+((objX-mainX)/(t_enemyAttack-20-5)), mainY+((objY-mainY)/(t_enemyAttack-20-5)), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+	else
+	{
+		draw_sprite_ext(sprite_index, image_index,  objX+((objX-mainX)/-(t_enemyAttack-20)+6), objY+((objY-mainY)/-(t_enemyAttack-20)+6), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+}
+else if (t_battle2-20 > 0 && main == Id)
+{
+	if (t_battle2-20 > 5)
+	{
+		draw_sprite_ext(sprite_index, image_index, mainX+((objX-mainX)/(t_battle2-20-5)), mainY+((objY-mainY)/(t_battle2-20-5)), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+	else
+	{
+		draw_sprite_ext(sprite_index, image_index,  objX+((objX-mainX)/-(t_battle2-20)+6), objY+((objY-mainY)/-(t_battle2-20)+6), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+}
 else if (turnEff > 0 && object == Id)
 {
 	if (turnEff > 10)
@@ -20,7 +42,7 @@ else if (turnEff > 0 && object == Id)
 else
 {
 	draw_self();
-	draw_text(x, y, string(Id));
+	//draw_text(x, y, string(Id));
 }
 
 #region draw stats

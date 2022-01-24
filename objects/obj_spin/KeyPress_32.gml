@@ -130,6 +130,37 @@ while (tx < ds_list_size(s_turn))
 }
 #endregion
 
+#region event handling
+
+var eventN = random(100);
+
+if (eventN < 0.5)
+{
+	add_symbol(15);
+	
+	add_noti(1000);
+}
+else if (eventN < 1.0)
+{
+	add_symbol(16);
+	
+	add_noti(1001);
+}
+else if (eventN < 1.5)
+{
+	add_symbol(17);
+	
+	add_noti(1002);
+}
+else if (eventN < 2.0)
+{
+	add_symbol(18);
+	
+	add_noti(1003);
+}
+
+#endregion
+
 #endregion
 
 
