@@ -109,9 +109,17 @@ if (t_battle2 == 0)
 if (t_enemyAttack == 0)
 {
 	add_food(-s_cp[| main], 1);
+	add_gold(-(floor(gold/10)));
 	
 	interact = 1;
 	t_enemyAttack = -1;
+}
+
+if (t_raid2 == 0)
+{
+	t_shakeO = 30;
+	
+	t_raid2 = -1;
 }
 
 #region barbarian probability handle

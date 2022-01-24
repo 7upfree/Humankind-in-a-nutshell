@@ -17,26 +17,20 @@ function inter(main_pos, object_pos){
 				interact = 0;
 				t_turn = 1;
 			}
-		}
-		else if (isBase(main))
-		{
-			if (isProduction(object))
+			else if (isBase(object))
 			{
 				interact = 0;
 				t_facility = 1;
+			}
+			else if (isTraineeTraining(object))
+			{
+				interact = 0;
+				t_trainee2 = 1;
 			}
 		}
 		else if (isTrainee(main))
 		{
 			if (isWeapon(object))
-			{
-				interact = 0;
-				t_trainee = 1;
-			}
-		}
-		else if (isTraineeTraining(main))
-		{
-			if (isProduction(object))
 			{
 				interact = 0;
 				t_trainee = 1;

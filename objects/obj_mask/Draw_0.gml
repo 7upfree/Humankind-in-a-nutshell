@@ -28,6 +28,17 @@ else if (t_battle2-20 > 0 && main == Id)
 		draw_sprite_ext(sprite_index, image_index,  objX+((objX-mainX)/-(t_battle2-20)+6), objY+((objY-mainY)/-(t_battle2-20)+6), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
 	}
 }
+else if (t_raid2-20 > 0 && main == Id)
+{
+	if (t_raid2-20 > 5)
+	{
+		draw_sprite_ext(sprite_index, image_index, mainX+((objX-mainX)/(t_raid2-20-5)), mainY+((objY-mainY)/(t_raid2-20-5)), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+	else
+	{
+		draw_sprite_ext(sprite_index, image_index,  objX+((objX-mainX)/-(t_raid2-20)+6), objY+((objY-mainY)/-(t_raid2-20)+6), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+}
 else if (turnEff > 0 && object == Id)
 {
 	if (turnEff > 10)
@@ -55,7 +66,7 @@ if (isHuman(Id))
 	draw_text(x+80, y+40, string(h_food[| Id]));
 	
 	draw_set_color(c_dkgray);
-	draw_text(x-80, y+40, string(ceil((100-h_curProd[| Id])/h_turnProd[| Id])));
+	draw_text(x-80, y+40, string(ceil((100-(h_curProd[| Id]) mod 100)/h_turnProd[| Id])));
 	draw_reset();
 }
 else if (isBase(Id) && id_to_type(Id) != 44)

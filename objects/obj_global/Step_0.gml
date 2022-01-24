@@ -1,5 +1,7 @@
 #region turn production
 
+
+
 var xx = 0;
 while (xx < ds_list_size(owned))
 {
@@ -12,6 +14,11 @@ while (xx < ds_list_size(owned))
 		else {size = 3;}
 		
 		h_turnProd[| xx] = 15.0 + (size*5.0) + turnProdExtra;
+		
+		if (h_curProd[| xx] > 500)
+		{
+			h_curProd[| xx] = 500;
+		}
 	}
 	xx++;
 }

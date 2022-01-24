@@ -54,9 +54,31 @@ if (object == Id && object != -1)
 	}
 	else if (t_facility == 0)
 	{
-		slot[| pos] = -1;
-		instance_create_layer(x, y, "main01", obj_consumed);
+		if (h_curProd[| main] >= 100)
+		{
+			instance_create_layer(mainX, mainY, "main01", obj_production);
+			h_curProd[| main] -= 100;
+		}
+		else
+		{
+			interact = 1;
+		}
+		
 		t_facility = -1;
+	}
+	else if (t_trainee2 == 0)
+	{
+		if (h_curProd[| main] >= 100)
+		{
+			instance_create_layer(mainX, mainY, "main01", obj_production);
+			h_curProd[| main] -= 100;
+		}
+		else
+		{
+			interact = 1;
+		}
+		
+		t_trainee2 = -1;
 	}
 	else if (t_trainee == 0)
 	{
@@ -76,6 +98,12 @@ if (object == Id && object != -1)
 		instance_create_layer(x, y, "main01", obj_battleEffect);
 		t_enemyAttack = 30;
 		t_enemy = -1;
+	}
+	else if (t_raid == 0)
+	{
+		instance_create_layer(x, y, "main01", obj_battleEffect);
+		t_raid2 = 30;
+		t_raid = -1;
 	}
 	else if (t_turn == 0)
 	{

@@ -13,7 +13,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Every farm:\nfruits: +1 food\nwheat: +1 food\nrice: +2 food"
+			return "1/2/3/4/5 farms:\nfruits: +1 food\nwheat: +1 food\nrice: +2 food"
 		}
 	}
 	else if (type == 2)
@@ -28,7 +28,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "every 2 pastures:\ncow: +3 food\nsheep: +2 food & gold\nhorse: +2 food"
+			return "1/3/5/7/9 pastures:\ncow: +3 food\nsheep: +2 food & gold\nhorse: +2 food"
 		}
 	}
 	else if (type == 3)
@@ -43,7 +43,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "every fisherboat:\nfish: +1 food\npearl: +1 gold"
+			return "1~9 fisherboats:\nfish: +1 food\npearl: +1 gold"
 		}
 	}
 	else if (type == 4)
@@ -58,7 +58,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "every stable:\nlabour +1/turn\nhorse: +1 labour"
+			return "1/2/3/4/5 stables:\nlabour +1/turn\nhorse: +1 labour"
 		}
 	}
 	else if (type == 5)
@@ -73,7 +73,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "every Library:\ninspiration +1/turn"
+			return "1/2/3/4/5 Libraries:\ninspiration +1/turn"
 		}
 	}
 	else if (type == 6)
@@ -88,7 +88,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Every mine:\narmour of ancient troops: +1"
+			return "1/2/3/4/5 mines:\narmour of ancient troops: +1"
 		}
 	}
 	else if (type == 7)
@@ -103,7 +103,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "every Market:\ngold +1/turn"
+			return "1/2/3/4/5 Markets:\ngold +1/turn"
 		}
 	}
 	else if (type == 8)

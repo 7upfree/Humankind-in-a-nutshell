@@ -15,5 +15,10 @@ function inter2(main_pos, object_pos){
 			interact = 0;
 			t_battle = 1;
 		}
+		else if (isFood(object))
+		{
+			interact = 0;
+			t_raid = 1;
+		}
 	}
 }

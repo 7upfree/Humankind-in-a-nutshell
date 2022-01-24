@@ -68,11 +68,6 @@ while(prodx < ds_list_size(h_curProd))
 	if (isHuman(prodx))
 	{
 		h_curProd[| prodx] += h_turnProd[| prodx];
-		if (h_curProd[| prodx] >= 100)
-		{
-			h_curProd[| prodx] -= 100;
-			add_symbol(22);
-		}
 	}
 	prodx++;
 }

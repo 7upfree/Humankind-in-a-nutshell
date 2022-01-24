@@ -110,12 +110,7 @@ if (destroy_timer == 0)
 	}
 	else if (type == 22)	// Production
 	{
-		owned[| object] = 0;
-		s_prodCount[| main] += 1;
-		if (s_prodCount[| main] == prod_needed(id_to_type(main)))
-		{
-			completed(id_to_type(main));
-		}
+		h_curProd[| main] += 100;
 	}
 	else if (type == 25)	// Rock
 	{
