@@ -14,6 +14,19 @@ if (t_battle2 == 0)
 	{
 		if (id_to_type(main) == 19)
 		{
+			if (babylon == 1)
+			{
+				add_inspi(3);
+			}
+			if (reform == 1)
+			{
+				add_inspi(5);
+			}
+			if (mercantilism == 1)
+			{
+				add_gold(10);
+			}
+			
 			var reward = irandom(9);
 			
 			if (reward == 9)
@@ -33,6 +46,19 @@ if (t_battle2 == 0)
 		}
 		else if (id_to_type(main) == 20)
 		{
+			if (babylon == 1)
+			{
+				add_inspi(3);
+			}
+			if (reform == 1)
+			{
+				add_inspi(5);
+			}
+			if (mercantilism == 1)
+			{
+				add_gold(10);
+			}
+			
 			var reward = irandom(9);
 			
 			if (reward < 5)
@@ -58,6 +84,19 @@ if (t_battle2 == 0)
 	{
 		if (id_to_type(object) == 19)
 		{
+			if (babylon == 1)
+			{
+				add_inspi(3);
+			}
+			if (reform == 1)
+			{
+				add_inspi(5);
+			}
+			if (mercantilism == 1)
+			{
+				add_gold(10);
+			}
+			
 			var reward = irandom(9);
 			
 			if (reward == 9)
@@ -77,6 +116,19 @@ if (t_battle2 == 0)
 		}
 		else if (id_to_type(object) == 20)
 		{
+			if (babylon == 1)
+			{
+				add_inspi(3);
+			}
+			if (reform == 1)
+			{
+				add_inspi(5);
+			}
+			if (mercantilism == 1)
+			{
+				add_gold(10);
+			}
+			
 			var reward = irandom(9);
 			
 			if (reward < 5)

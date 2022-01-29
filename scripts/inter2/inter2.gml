@@ -3,6 +3,8 @@ function inter2(main_pos, object_pos){
 	main = slot[| main_pos];
 	object = slot[| object_pos];
 	
+	var raid = irandom(9);
+	
 	if (isEnemy(main))
 	{
 		if (isHuman(object))
@@ -15,7 +17,7 @@ function inter2(main_pos, object_pos){
 			interact = 0;
 			t_battle = 1;
 		}
-		else if (isFood(object))
+		else if (isFood(object) && raid == 0)
 		{
 			interact = 0;
 			t_raid = 1;

@@ -6,7 +6,7 @@ function add_symbol(type){
 	#region create profile
 	if (type == 1)
 	{
-		create_profile(20, -1, -1, -1, -1);
+		create_profile(20+uruk, -1, -1, -1, -1);
 	}
 	else if (isBaseType(type) || type == 21)
 	{

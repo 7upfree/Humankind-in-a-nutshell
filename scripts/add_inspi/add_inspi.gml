@@ -3,5 +3,5 @@
 function add_inspi(inspi){
 	inspiration += inspi;
 	eff_inspi_ship = inspi;
-	instance_create_layer(120, 1000, "main02", eff_inspi);
+	instance_create_layer(120, 930, "main02", eff_inspi);
 }

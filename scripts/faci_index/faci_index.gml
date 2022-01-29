@@ -5,9 +5,9 @@ function faci_index(type){
 	{
 		if (type == 1)		// farm
 		{
-			if (index > 5)
+			if (index > 5+monastery)
 			{
-				return 5;
+				return 5+monastery;
 			}
 			else
 			{
@@ -16,9 +16,9 @@ function faci_index(type){
 		}
 		else if (type == 2)	// pasture
 		{
-			if (index > 9)
+			if (index > 9+sarazm)
 			{
-				return 9;
+				return 9+sarazm;
 			}
 			else
 			{

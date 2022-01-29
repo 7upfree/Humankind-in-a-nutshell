@@ -1,4 +1,4 @@
-draw_set_colour(c_yellow);
+draw_set_colour(c_black);
 draw_set_halign(fa_center);
 draw_set_font(eng22);
 if (goldd > -1)

@@ -29,4 +29,44 @@ function tech_open(iid){
 	{
 		if (tech[| 8] == 1) {return 1;} else {return 0;}
 	}
+	else if (iid == 10)
+	{
+		if (tech[| 9] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 11)
+	{
+		if (tech[| 9] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 12)
+	{
+		if (tech[| 9] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 13)
+	{
+		if (tech[| 10] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 14)
+	{
+		if (tech[| 11] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 15)
+	{
+		if (tech[| 13] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 16)
+	{
+		if (tech[| 14] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 17)
+	{
+		if (tech[| 12] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 18)
+	{
+		if (tech[| 15] == 1 && tech[| 16] == 1 && tech[| 17] == 1) {return 1;} else {return 0;}
+	}
+	else if (iid == 19)
+	{
+		if (tech[| 18] == 1) {return 1;} else {return 0;}
+	}
 }

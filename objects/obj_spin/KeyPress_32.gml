@@ -45,6 +45,11 @@ else if (year < 0)
 	year += 25;
 }
 
+if (year == -3900)
+{
+	newera = 1;
+}
+
 #endregion
 
 #region human food count goes down by 1

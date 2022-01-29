@@ -1,4 +1,4 @@
-#macro technology_count 21
+#macro technology_count 20
 #macro symbol_count 45
 #macro infobox_x 520
 
@@ -14,6 +14,11 @@ owned = ds_list_create();
 
 globalvar year;
 year = -4000;
+globalvar era;
+era = 0;
+
+globalvar newera;
+newera = 0;
 
 globalvar h_food;
 globalvar s_cp;

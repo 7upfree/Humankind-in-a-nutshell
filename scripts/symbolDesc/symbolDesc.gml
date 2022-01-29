@@ -260,7 +260,7 @@ function symbolDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 4;
 		}
 		else if (outcome == 1)
 		{
@@ -268,14 +268,14 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide loot when\ndestroyed.";
+			return "Provide loot when\ndestroyed. Plunder\nplayer's symbols\nby 10% chance";
 		}
 	}
 	else if (type == 20)
 	{
 		if (outcome == 0)
 		{
-			return 3;
+			return 6;
 		}
 		else if (outcome == 1)
 		{
@@ -283,7 +283,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide loot when\ndestroyed. 50% chance\nof better loot.";
+			return "Provide loot when\ndestroyed. Provides\nbetter loot by\n50% chance. Plunder\nplayer's symbols\nby 10% chance.";
 		}
 	}
 	else if (type == 21)
@@ -455,7 +455,7 @@ function symbolDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 3;
 		}
 		else if (outcome == 1)
 		{
@@ -463,7 +463,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "3 Production required to\nbuild the pharos lighthouse.";
+			return "3 Production required\nto build the pharos\nlighthouse.";
 		}
 	}
 	else if (type == 33)

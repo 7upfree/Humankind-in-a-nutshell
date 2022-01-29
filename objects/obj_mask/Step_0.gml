@@ -73,6 +73,11 @@ if (object == Id && object != -1)
 			instance_create_layer(mainX, mainY, "main01", obj_production);
 			h_curProd[| main] -= 100;
 		}
+		else if (mercenary == 1 && gold > 9)
+		{
+			instance_create_layer(mainX, mainY, "main01", obj_production);
+			gold -= 10;
+		}
 		else
 		{
 			interact = 1;

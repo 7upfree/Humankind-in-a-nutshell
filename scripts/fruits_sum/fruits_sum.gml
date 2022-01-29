@@ -1,6 +1,7 @@
 function fruits_sum(){
 	var sum = 
-	faci_index(1);
+	faci_index(1)
+	+ feudalism;
 	
 	return sum;
 }

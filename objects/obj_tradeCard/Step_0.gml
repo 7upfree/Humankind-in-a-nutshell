@@ -14,3 +14,11 @@ else
 {
 	image_index = 0;
 }
+
+if (triumvirate == 1)
+{
+	if (isWeaponType(symbol_type) || symbol_type == 21)
+	{
+		cost = 1;
+	}
+}

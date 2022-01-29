@@ -15,6 +15,17 @@ function tech_unlock(iid){
 	}
 	else if (iid == 3)
 	{
+		if (phoenicia == 1)
+		{
+			add_symbol(31);
+			add_symbol(31);
+			add_symbol(31);
+			
+			view_in_slot();
+			view_in_slot();
+			view_in_slot();
+		}
+		
 		available[| 31] = 5;
 		available[| 32] = 1;
 	}
@@ -34,10 +45,16 @@ function tech_unlock(iid){
 	else if (iid == 7)
 	{
 		available[| 36] = 20;
+		available[| 25] = 0;
 		available[| 39] = 5;
 	}
 	else if (iid == 8)
 	{
 		available[| 40] = 2;
+	}
+	else if (iid == 9)
+	{
+		era = 1;
+		newera = 1;
 	}
 }

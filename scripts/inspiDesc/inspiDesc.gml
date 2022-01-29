@@ -192,7 +192,7 @@ function inspiDesc(type, nth, outcome){
 		{
 			if (outcome == 0)
 			{
-				return 5;
+				return 6;
 			}
 			else if (outcome == 1)
 			{
@@ -200,7 +200,7 @@ function inspiDesc(type, nth, outcome){
 			}
 			else if (outcome == 2)
 			{
-				return "Build a swordman by combining Iron\nwith trainee.\n\nweapon\n1 production required"
+				return "Replacement of Rock.\nBuild a swordman by combining Iron\nwith trainee.\n\nweapon\n1 production required"
 			}
 		}
 		else if (nth == 1)

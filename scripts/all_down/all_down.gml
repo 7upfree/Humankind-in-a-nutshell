@@ -6,6 +6,8 @@ function all_down(except)
 	if (tech_ON != -1 && except != 1) {return false;}
 	if (choice_ON != -1 && except != 2) {return false;}
 	if (trade_ON != -1 && except != 3) {return false;}
+	if (traits_ON != -1 && except != 4) {return false;}
+	if (country_ON != -1 && except != 5) {return false;}
 	if (gameover == 1) {return false;}
 	else {return true;}
 }

@@ -14,13 +14,13 @@ function completed(type){
 	else if (type == 26)	// warrior
 	{
 		owned[| object] = 27;
-		s_cp[| object] = 3;
+		s_cp[| object] = 3+seaPeoples;
 		s_armor[| object] = 5+warrior+armour1;
 	}
 	else if (type == 29)	// archer
 	{
 		owned[| object] = 30;
-		s_cp[| object] = 2;
+		s_cp[| object] = 2+seaPeoples;
 		s_armor[| object] = 3 + armour1;
 	}
 	else if (type == 31)	// boat frame
@@ -51,7 +51,7 @@ function completed(type){
 	else if (type == 37)	// swordman
 	{
 		owned[| object] = 38;
-		s_cp[| object] = 4;
+		s_cp[| object] = 4+seaPeoples;
 		s_armor[| object] = 7+armour1;
 	}
 	else if (type == 39)	// mine mountain

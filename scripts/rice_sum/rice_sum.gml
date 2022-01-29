@@ -1,6 +1,7 @@
 function rice_sum(){
 	var sum = 
-	(faci_index(1)*2);
+	(faci_index(1)*2)
+	+ feudalism;
 	
 	return sum;
 }

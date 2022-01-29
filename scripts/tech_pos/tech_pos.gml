@@ -86,13 +86,13 @@ function tech_pos(techId, xy){
 	}
 	else if (techId == 15)
 	{
-		if (xy == 0) {return xx+(onek*6);}
-		else {return y3;}
+		if (xy == 0) {return xx+(onek*7);}
+		else {return y1;}
 	}
 	else if (techId == 16)
 	{
 		if (xy == 0) {return xx+(onek*7);}
-		else {return y1+150;}
+		else {return y2;}
 	}
 	else if (techId == 17)
 	{
@@ -102,12 +102,12 @@ function tech_pos(techId, xy){
 	else if (techId == 18)
 	{
 		if (xy == 0) {return xx+(onek*8);}
-		else {return y1+150+225;}
+		else {return y2;}
 	}
 	else if (techId == 19)
 	{
 		if (xy == 0) {return xx+(onek*9);}
-		else {return y1+150+225;}
+		else {return y2;}
 	}
 	else
 	{
