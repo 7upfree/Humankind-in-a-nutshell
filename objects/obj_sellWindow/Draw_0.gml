@@ -1,0 +1,16 @@
+#region draw_background
+draw_set_alpha(0.8);
+draw_set_colour(c_grey);
+draw_rectangle(0,0,1920,1080,0);
+draw_reset();
+#endregion
+
+#region draw UI
+
+//gold
+draw_sprite_stretched(spr_gold, 0, 45, 45, 50, 50);
+draw_set_font(eng50);
+draw_set_colour(c_black);
+draw_text(130, 30, string(gold));
+
+#endregion
