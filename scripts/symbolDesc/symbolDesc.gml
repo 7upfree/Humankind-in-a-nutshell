@@ -646,6 +646,81 @@ function symbolDesc(type, outcome){
 			return "1 production required\nfor a new settlement.";
 		}
 	}
+	else if (type == 45)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Food Chest"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides random foods.";
+		}
+	}
+	else if (type == 46)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
+			return "Food Chest+"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides random foods.\nUsually x2 the normal\nfood chest.";
+		}
+	}
+	else if (type == 47)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Prophets"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides " + string(2+(era*2)) + "~" + string(4+(era*2)) + "\ninspiration.";
+		}
+	}
+	else if (type == 48)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Gold"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides " + string(5+era) + "~" + string(9+era) + " golds.";
+		}
+	}
+	else if (type == 49)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Captives"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides " + string(10+(era*5)) + "~" + string(20+(era*5)) + " labours.";
+		}
+	}
 	else
 	{
 		return 0;

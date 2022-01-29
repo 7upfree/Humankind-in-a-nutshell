@@ -127,20 +127,71 @@ if (destroy_timer == 0)
 		owned[| main] = 37;
 		owned[| object] = 0;
 	}
-	else if (type == 41)	// Ancient Loot
-	{
-		loot_reward(0);
-	}
-	else if (type == 42)	// Ancient Loot+
-	{
-		loot_reward(2);
-	}
 	else if (type == 43)	// Settler's kit
 	{
 		add_food(-10, 0);
 		
 		add_symbol(44);
 		view_in_slot();
+	}
+	else if (type == 45)	// Food Chest
+	{
+		loot_food();
+	}
+	else if (type == 46)	// Food Chest+
+	{
+		loot_food();
+	}
+	else if (type == 47)	// Prophets
+	{
+		var r_inspi = irandom(2);
+		
+		if (r_inspi == 0)
+		{
+			add_inspi(2+(era*2));
+		}
+		else if (r_inspi == 1)
+		{
+			add_inspi(3+(era*2));
+		}
+		else
+		{
+			add_inspi(4+(era*2));
+		}
+	}
+	else if (type == 48)	// Gold
+	{
+		var r_gold = irandom(2);
+		
+		if (r_gold == 0)
+		{
+			add_gold(5+era);
+		}
+		else if (r_inspi == 1)
+		{
+			add_gold(7+era);
+		}
+		else
+		{
+			add_gold(9+era);
+		}
+	}
+	else if (type == 49)	// Captive
+	{
+		var r_labour = irandom(2);
+		
+		if (r_labour == 0)
+		{
+			add_labour(10+(era*5));
+		}
+		else if (r_labour == 1)
+		{
+			add_gold(15+(era*5));
+		}
+		else
+		{
+			add_gold(20+(era*5));
+		}
 	}
 	
 	if (isConsumable(object))

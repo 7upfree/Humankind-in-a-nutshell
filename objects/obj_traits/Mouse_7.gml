@@ -1,4 +1,4 @@
-if (era == 0 && y > 0)
+if (era == 0 && y > 100)
 {
 	if (traitsType == 1)
 	{

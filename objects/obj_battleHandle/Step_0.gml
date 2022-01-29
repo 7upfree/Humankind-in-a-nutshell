@@ -27,21 +27,27 @@ if (t_battle2 == 0)
 				add_gold(10);
 			}
 			
-			var reward = irandom(9);
+			var r_inspi = irandom(9);
+			var r_gold = irandom(9);
+			var r_labour = irandom(9);
 			
-			if (reward == 9)
+			add_symbol(45);
+			view_in_slot();
+			
+			if (r_inspi == 0)
 			{
-				add_symbol(42);
+				add_symbol(47);
 				view_in_slot();
-				
-				add_noti(11);
 			}
-			else
+			if (r_gold == 0)
 			{
-				add_symbol(41);
+				add_symbol(48);
 				view_in_slot();
-				
-				add_noti(11);
+			}
+			if (r_labour == 0)
+			{
+				add_symbol(49);
+				view_in_slot();
 			}
 		}
 		else if (id_to_type(main) == 20)
@@ -59,21 +65,27 @@ if (t_battle2 == 0)
 				add_gold(10);
 			}
 			
-			var reward = irandom(9);
+			var r_inspi = irandom(9);
+			var r_gold = irandom(9);
+			var r_labour = irandom(9);
 			
-			if (reward < 5)
+			add_symbol(46);
+			view_in_slot();
+			
+			if (r_inspi < 4)
 			{
-				add_symbol(42);
+				add_symbol(47);
 				view_in_slot();
-				
-				add_noti(11);
 			}
-			else
+			if (r_gold < 4)
 			{
-				add_symbol(41);
+				add_symbol(48);
 				view_in_slot();
-				
-				add_noti(11);
+			}
+			if (r_labour < 4)
+			{
+				add_symbol(49);
+				view_in_slot();
 			}
 		}
 		
@@ -97,21 +109,27 @@ if (t_battle2 == 0)
 				add_gold(10);
 			}
 			
-			var reward = irandom(9);
+			var r_inspi = irandom(9);
+			var r_gold = irandom(9);
+			var r_labour = irandom(9);
 			
-			if (reward == 9)
+			add_symbol(45);
+			view_in_slot();
+			
+			if (r_inspi == 0)
 			{
-				add_symbol(42);
+				add_symbol(47);
 				view_in_slot();
-				
-				add_noti(11);
 			}
-			else
+			if (r_gold == 0)
 			{
-				add_symbol(41);
+				add_symbol(48);
 				view_in_slot();
-				
-				add_noti(11);
+			}
+			if (r_labour == 0)
+			{
+				add_symbol(49);
+				view_in_slot();
 			}
 		}
 		else if (id_to_type(object) == 20)
@@ -129,21 +147,27 @@ if (t_battle2 == 0)
 				add_gold(10);
 			}
 			
-			var reward = irandom(9);
+			var r_inspi = irandom(9);
+			var r_gold = irandom(9);
+			var r_labour = irandom(9);
 			
-			if (reward < 5)
+			add_symbol(46);
+			view_in_slot();
+			
+			if (r_inspi < 4)
 			{
-				add_symbol(42);
+				add_symbol(47);
 				view_in_slot();
-				
-				add_noti(11);
 			}
-			else
+			if (r_gold < 4)
 			{
-				add_symbol(41);
+				add_symbol(48);
 				view_in_slot();
-				
-				add_noti(11);
+			}
+			if (r_labour < 4)
+			{
+				add_symbol(49);
+				view_in_slot();
 			}
 		}
 		
