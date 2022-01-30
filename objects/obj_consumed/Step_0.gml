@@ -167,7 +167,7 @@ if (destroy_timer == 0)
 		{
 			add_gold(5+era);
 		}
-		else if (r_inspi == 1)
+		else if (r_gold == 1)
 		{
 			add_gold(7+era);
 		}

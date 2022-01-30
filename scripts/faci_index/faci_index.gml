@@ -5,7 +5,7 @@ function faci_index(type){
 	{
 		if (type == 1)		// farm
 		{
-			if (index > 5+monastery)
+			if (facil_count[| index] > 5+monastery)
 			{
 				return 5+monastery;
 			}
@@ -16,7 +16,7 @@ function faci_index(type){
 		}
 		else if (type == 2)	// pasture
 		{
-			if (index > 9+sarazm)
+			if (facil_count[| index] > 9+sarazm)
 			{
 				return 9+sarazm;
 			}
@@ -27,7 +27,7 @@ function faci_index(type){
 		}
 		else if (type == 3)	// fisherboat
 		{
-			if (index > 9)
+			if (facil_count[| index] > 9)
 			{
 				return 9;
 			}
@@ -38,7 +38,7 @@ function faci_index(type){
 		}
 		else if (type == 4)	// stable
 		{
-			if (index > 5)
+			if (facil_count[| index] > 5)
 			{
 				return 5;
 			}
@@ -49,7 +49,7 @@ function faci_index(type){
 		}
 		else if (type == 5)	// library
 		{
-			if (index > 5)
+			if (facil_count[| index] > 5)
 			{
 				return 5;
 			}
@@ -60,7 +60,7 @@ function faci_index(type){
 		}
 		else if (type == 6)	// mine
 		{
-			if (index > 5)
+			if (facil_count[| index] > 5)
 			{
 				return 5;
 			}
@@ -71,7 +71,7 @@ function faci_index(type){
 		}
 		else if (type == 6)	// market
 		{
-			if (index > 5)
+			if (facil_count[| index] > 5)
 			{
 				return 5;
 			}

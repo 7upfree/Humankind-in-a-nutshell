@@ -260,7 +260,7 @@ function symbolDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 4;
+			return 5;
 		}
 		else if (outcome == 1)
 		{
@@ -268,14 +268,14 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide loot when\ndestroyed. Plunder\nplayer's symbols\nby 10% chance";
+			return "When destroyed:\nfood chest: 100%\nprophets: 10%\ngold: 10%\ncaptive: 10%";
 		}
 	}
 	else if (type == 20)
 	{
 		if (outcome == 0)
 		{
-			return 6;
+			return 5;
 		}
 		else if (outcome == 1)
 		{
@@ -283,7 +283,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide loot when\ndestroyed. Provides\nbetter loot by\n50% chance. Plunder\nplayer's symbols\nby 10% chance.";
+			return "When destroyed:\nfood chest+: 100%\nprophets: 30%\ngold: 30%\ncaptive: 30%";
 		}
 	}
 	else if (type == 21)
@@ -298,7 +298,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Combine with weapons\nto develop troops.";
+			return "Combine with weapons\nto train troops.";
 		}
 	}
 	else if (type == 22)
@@ -719,6 +719,21 @@ function symbolDesc(type, outcome){
 		else if (outcome == 2)
 		{
 			return "Provides " + string(10+(era*5)) + "~" + string(20+(era*5)) + " labours.";
+		}
+	}
+	else if (type == 50)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "University Site"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build an university.";
 		}
 	}
 	else

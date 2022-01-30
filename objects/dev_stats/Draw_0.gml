@@ -11,5 +11,5 @@ if (keyboard_check(vk_down))
 		xx++;
 	}
 	
-	draw_text(70, 10, barbProb);
+	draw_text(70, 10, sell_ON);
 }
