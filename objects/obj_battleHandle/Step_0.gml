@@ -88,6 +88,16 @@ if (t_battle2 == 0)
 				view_in_slot();
 			}
 		}
+		else if (id_to_type(main) == 69)
+		{
+			add_symbol(1);
+			add_symbol(1);
+		}
+		else if (id_to_type(main) == 71)
+		{
+			add_symbol(27);
+			add_symbol(27);
+		}
 		
 		t_shake = 30;
 		shake = 1;

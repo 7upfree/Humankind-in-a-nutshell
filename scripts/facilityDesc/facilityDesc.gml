@@ -5,7 +5,7 @@ function facilityDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 4;
+			return 8;
 		}
 		else if (outcome == 1)
 		{
@@ -13,14 +13,14 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1/2/3/4/5 farms:\nfruits: +1 food\nwheat: +1 food\nrice: +2 food"
+			return "Every 1 Farm:\nfruits: +1 food\nwheat: +1 food\nrice: +2 food\n\n5 farms:\nFruits, wheat & rice\ncost 1 less gold"
 		}
 	}
 	else if (type == 2)
 	{
 		if (outcome == 0)
 		{
-			return 4;
+			return 7;
 		}
 		else if (outcome == 1)
 		{
@@ -28,14 +28,14 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1/3/5/7/9 pastures:\ncow: +3 food\nsheep: +2 food & gold\nhorse: +2 food"
+			return "Every 1 pasture:\ncow: +2 food\nsheep: +2 food & +2 gold\nhorse: +2 food\n\n5 pastures:\nnone"
 		}
 	}
 	else if (type == 3)
 	{
 		if (outcome == 0)
 		{
-			return 3;
+			return 6;
 		}
 		else if (outcome == 1)
 		{
@@ -43,14 +43,14 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1~9 fisherboats:\nfish: +1 food\npearl: +1 gold"
+			return "Every 1 fisherboat:\nfish: +1 food\npearl: +1 gold\n\n5 fisherboats:\nfish & pearl cost half gold."
 		}
 	}
 	else if (type == 4)
 	{
 		if (outcome == 0)
 		{
-			return 3;
+			return 6;
 		}
 		else if (outcome == 1)
 		{
@@ -58,14 +58,14 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1/2/3/4/5 stables:\nlabour +1/turn\nhorse: +1 labour"
+			return "Every 1 stable:\nlabour +1/turn\nhorse: +1 labour\n\n5 stables:\nnone"
 		}
 	}
 	else if (type == 5)
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 5;
 		}
 		else if (outcome == 1)
 		{
@@ -73,14 +73,14 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1/2/3/4/5 Libraries:\ninspiration +1/turn"
+			return "Every 1 Library:\ninspiration +1/turn\n\n5 libraries:\ninstantly provide 10 inspiration."
 		}
 	}
 	else if (type == 6)
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 5;
 		}
 		else if (outcome == 1)
 		{
@@ -88,14 +88,14 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1/2/3/4/5 mines:\narmour of ancient troops: +1"
+			return "Every 1 mine:\narmour of ancient troops: +1\n\n5 mines:\narmour of troops in all era +1."
 		}
 	}
 	else if (type == 7)
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 5;
 		}
 		else if (outcome == 1)
 		{
@@ -103,7 +103,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1/2/3/4/5 Markets:\ngold +1/turn"
+			return "Every 1 Market:\ngold +1/turn\n\n5 Markets:\nnone"
 		}
 	}
 	else if (type == 8)
@@ -125,7 +125,7 @@ function facilityDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 1;
+			return 2;
 		}
 		else if (outcome == 1)
 		{
@@ -133,7 +133,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Provide 1 production every 20 turns"
+			return "Provide 1 production every\n20 turns"
 		}
 	}
 	else

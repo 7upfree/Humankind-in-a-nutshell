@@ -4,5 +4,7 @@ function isTraineeTraining(iid){
 	if (owned[| iid] == 26) {return true;}
 	else if (owned[| iid] == 29) {return true;}
 	else if (owned[| iid] == 37) {return true;}
+	else if (owned[| iid] == 53) {return true;}
+	else if (owned[| iid] == 61) {return true;}
 	else {return false;}
 }

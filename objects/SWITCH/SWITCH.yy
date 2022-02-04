@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "IN-GAME",
+    "path": "folders/Objects/IN-GAME.yy",
   },
   "resourceVersion": "1.0",
   "name": "SWITCH",

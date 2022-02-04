@@ -3,5 +3,7 @@
 function isSpecial(type){
 	if (type == 8) {return true;}
 	else if (type == 9) {return true;}
+	else if (type == 14) {return true;}
+	else if (type == 15) {return true;}
 	else {return false;}
 }

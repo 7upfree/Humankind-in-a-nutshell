@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "sell",
-    "path": "folders/Objects/Trade/sell.yy",
+    "path": "folders/Objects/IN-GAME/Trade/sell.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sellButton",

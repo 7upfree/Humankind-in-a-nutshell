@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Notification",
-    "path": "folders/Objects/Notification.yy",
+    "path": "folders/Objects/IN-GAME/Notification.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_notiBg",

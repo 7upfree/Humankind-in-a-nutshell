@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Trade",
-    "path": "folders/Objects/Trade.yy",
+    "path": "folders/Objects/IN-GAME/Trade.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_tradeButton",

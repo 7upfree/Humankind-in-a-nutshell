@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Technology",
-    "path": "folders/Objects/Technology.yy",
+    "path": "folders/Objects/IN-GAME/Technology.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_technologyWindow",

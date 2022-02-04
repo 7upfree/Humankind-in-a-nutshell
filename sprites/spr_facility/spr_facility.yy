@@ -134,7 +134,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Facility",
-    "path": "folders/Sprites/Facility.yy",
+    "path": "folders/Sprites/IN-GAME/Facility.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_facility",

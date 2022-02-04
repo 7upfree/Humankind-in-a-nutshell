@@ -4,5 +4,6 @@ function isFirstInter(iid){
 	if (isHuman(iid)) {return true;}
 	else if (isTrainee(iid)) {return true;}
 	else if (isTroop(iid)) {return true;}
+	else if (isFigure(iid)) {return true;}
 	else {return false;}
 }

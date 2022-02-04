@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "STAGE",
-    "path": "folders/Sprites/STAGE.yy",
+    "path": "folders/Sprites/OTHERS/STAGE.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite38",

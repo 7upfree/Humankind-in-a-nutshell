@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "ETC",
-    "path": "folders/Objects/ETC.yy",
+    "path": "folders/Objects/IN-GAME/ETC.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_gameover",

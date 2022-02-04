@@ -1,3 +1,4 @@
+// 
 
 function isSellable(type){
 	if (type == 0) {return false;}

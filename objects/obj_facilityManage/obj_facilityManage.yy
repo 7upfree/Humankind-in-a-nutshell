@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Facility",
-    "path": "folders/Objects/Facility.yy",
+    "path": "folders/Objects/IN-GAME/Facility.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_facilityManage",

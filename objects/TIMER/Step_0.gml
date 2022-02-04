@@ -12,5 +12,6 @@ if (t_choice > 0) {t_choice--;}
 if (t_turn > 0) {t_turn--;}
 if (t_raid > 0) {t_raid--;}
 if (t_raid2 > 0) {t_raid2--;}
+if (global.t_figure > 0) {global.t_figure--;}
 
 if (turnEff > 0) {turnEff--;}

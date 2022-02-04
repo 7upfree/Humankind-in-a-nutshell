@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Battle",
-    "path": "folders/Objects/Battle.yy",
+    "path": "folders/Objects/IN-GAME/Battle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_battleEffect",

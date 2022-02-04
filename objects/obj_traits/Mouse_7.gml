@@ -1,4 +1,4 @@
-if (era == 0 && y > 100)
+if (era == 0 && obj_traitsBackground.trait_alpha > 1)
 {
 	if (traitsType == 1)
 	{
@@ -49,8 +49,11 @@ if (era == 0 && y > 100)
 	
 	spinable = 1; // to be replaced with turndone
 	traits_ON = 0;
+	
+	traitsShip = traitsType;
+	instance_create_layer(200, 37, "lower00", obj_traitFaci);
 }
-else if (era == 1 && y > 0)
+else if (era == 1 && obj_traitsBackground.trait_alpha > 1)
 {
 	if (traitsType == 21)
 	{
@@ -99,4 +102,7 @@ else if (era == 1 && y > 0)
 	
 	spinable = 1; // to be replaced with turndone
 	traits_ON = 0;
+	
+	traitsShip = traitsType;
+	instance_create_layer(22, 217, "lower00", obj_traitFaci);
 }

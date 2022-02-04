@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Effects",
-    "path": "folders/Objects/Symbol/Effects.yy",
+    "path": "folders/Objects/IN-GAME/Symbol/Effects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_effectManage",

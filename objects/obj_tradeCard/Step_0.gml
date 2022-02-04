@@ -22,3 +22,19 @@ if (triumvirate == 1)
 		cost = 1;
 	}
 }
+
+if (faci_index(1) == 5)	// farm
+{
+	if (symbol_type == 5 || symbol_type == 6 || symbol_type == 7)
+	{
+		cost = howMuch(card_id) - 1;
+	}
+}
+
+if (faci_index(3) == 5)
+{
+	if (symbol_type == 11 || symbol_type == 12)
+	{
+		cost = floor(howMuch(card_id)/2);
+	}
+}

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Choice",
-    "path": "folders/Sprites/Choice.yy",
+    "path": "folders/Sprites/IN-GAME/Choice.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_choiceWindow",

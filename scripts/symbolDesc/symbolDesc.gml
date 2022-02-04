@@ -425,7 +425,7 @@ function symbolDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 3;
 		}
 		else if (outcome == 1)
 		{
@@ -433,7 +433,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "Destroyed when armor\nis below 0.";
+			return "Ranged Troops.\nDestroyed when armor\nis below 0.";
 		}
 	}
 	else if (type == 31)
@@ -463,7 +463,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "3 Production required\nto build the pharos\nlighthouse.";
+			return "2 Production required\nto build the pharos\nlighthouse.";
 		}
 	}
 	else if (type == 33)
@@ -734,6 +734,201 @@ function symbolDesc(type, outcome){
 		else if (outcome == 2)
 		{
 			return "1 Production required\nto build an university.";
+		}
+	}
+	else if (type == 51)
+	{
+		if (outcome == 0)
+		{
+			return 4;
+		}
+		else if (outcome == 1)
+		{
+			return "Galley"
+		}
+		else if (outcome == 2)
+		{
+			return "Destroyed after 10 turns.\nGain 1 gold each interaction.\nAll the gold gained\nis provided when destroyed.";
+		}
+	}
+	else if (type == 52)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Trebuchet Blueprint"
+		}
+		else if (outcome == 2)
+		{
+			return "A weapon to build\ntrebuchet.";
+		}
+	}
+	else if (type == 53)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Trebuchet(training)"
+		}
+		else if (outcome == 2)
+		{
+			return "1 production required\nto train to trebuchet.";
+		}
+	}
+	else if (type == 54)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
+			return "Trebuchet"
+		}
+		else if (outcome == 2)
+		{
+			return "Ranged Troops.\nDestroyed when armor\nis below 0.";
+		}
+	}
+	else if (type == 55)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Taj Mahal Site"
+		}
+		else if (outcome == 2)
+		{
+			return "3 Production required\nto build Taj mahal.";
+		}
+	}
+	else if (type == 56)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Bank Site"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a bank.";
+		}
+	}
+	else if (type == 57)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Press Site"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a press.";
+		}
+	}
+	else if (type == 58)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Telescope"
+		}
+		else if (outcome == 2)
+		{
+			return "Provide +5 inspiration.";
+		}
+	}
+	else if (type == 59)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Cheomseongdae Site"
+		}
+		else if (outcome == 2)
+		{
+			return "3 Production required\nto build Cheomseongdae.";
+		}
+	}
+	else if (type == 60)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Order of Chivalry"
+		}
+		else if (outcome == 2)
+		{
+			return "A weapon to build\na knight.";
+		}
+	}
+	else if (type == 61)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Knight(training)"
+		}
+		else if (outcome == 2)
+		{
+			return "1 production required\nto train to knight.";
+		}
+	}
+	else if (type == 62)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Knight"
+		}
+		else if (outcome == 2)
+		{
+			return "Destroyed when armor\nis below 0.";
+		}
+	}
+	else if (type == 63)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Factory Site"
+		}
+		else if (outcome == 2)
+		{
+			return "1 Production required\nto build a factory.";
 		}
 	}
 	else

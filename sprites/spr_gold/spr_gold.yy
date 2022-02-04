@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "STATS",
-    "path": "folders/Sprites/STATS.yy",
+    "path": "folders/Sprites/IN-GAME/STATS.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gold",

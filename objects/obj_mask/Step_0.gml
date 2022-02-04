@@ -125,6 +125,68 @@ if (object == Id && object != -1)
 	}
 }
 
+if (main == Id && main != -1)
+{
+	if (global.t_figure == 0)
+	{
+		if (id_to_type(main) == 64)			// Pythagoras
+		{
+			add_inspi(20);
+		}
+		else if (id_to_type(main) == 65)	// Pericles
+		{
+			if (isTroop(object))
+			{
+				add_damage(1);
+			}
+			else if (isHuman(object))
+			{
+				add_inspi(1);
+			}
+		}
+		else if (id_to_type(main) == 66)	// Socrates
+		{
+			if (isHuman(object))
+			{
+				add_inspi(2);
+			}
+		}
+		else if (id_to_type(main) == 67)	// Plato
+		{
+			if (id_to_type(object) == 35)
+			{	
+				completed(35);
+			}
+		}
+		else if (id_to_type(main) == 68)	// Aristoteles
+		{
+			add_inspi(1);
+		}
+		else if (id_to_type(main) == 70)	// Venizalos
+		{
+			add_food(2, 0);
+			add_gold(2);
+			add_labour(2);
+		}
+		else if (id_to_type(main) == 72)	// Hippocrates
+		{
+			if (isTroop(object))
+			{
+				add_armour(1);
+				add_inspi(1);
+			}
+		}
+		else if (id_to_type(main) == 73)	// Archimedes
+		{
+			add_inspi(1);
+			add_labour(3);
+		}
+		
+		global.t_figure = -1;
+		interact = 1;
+	}
+}
+
 if (main == Id && t_shake == 0)
 {	
 	owned[| main] = 0;

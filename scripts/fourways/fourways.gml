@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function fourways(type, isFacility, inverse){
 	if (isFacility == 1)
 	{
@@ -7,9 +5,9 @@ function fourways(type, isFacility, inverse){
 		{
 			draw_set_halign(fa_center);
 			draw_set_color(c_silver);
-			draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x+200,mouse_y+(150+(35*facilityDesc(type, 0))),false);
+			draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x+200,mouse_y+(150+(28*facilityDesc(type, 0))),false);
 			draw_set_color(c_dkgray);
-			draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x+200,mouse_y+(150+(35*facilityDesc(type, 0))),true);
+			draw_rectangle(mouse_x,mouse_y,mouse_x+infobox_x+200,mouse_y+(150+(28*facilityDesc(type, 0))),true);
 			draw_set_color(c_black);
 			draw_sprite_stretched(spr_facility, type, mouse_x+(infobox_x/2)-30, mouse_y+70, 60, 60);
 			draw_set_font(eng26);
@@ -24,9 +22,9 @@ function fourways(type, isFacility, inverse){
 		{
 			draw_set_halign(fa_center);
 			draw_set_color(c_silver);
-			draw_rectangle(mouse_x-infobox_x-100,mouse_y,mouse_x,mouse_y+(150+(25*facilityDesc(type, 0))),false);
+			draw_rectangle(mouse_x-infobox_x-100,mouse_y,mouse_x,mouse_y+(150+(28*facilityDesc(type, 0))),false);
 			draw_set_color(c_dkgray);
-			draw_rectangle(mouse_x-infobox_x-100,mouse_y,mouse_x,mouse_y+(150+(25*facilityDesc(type, 0))),true);
+			draw_rectangle(mouse_x-infobox_x-100,mouse_y,mouse_x,mouse_y+(150+(28*facilityDesc(type, 0))),true);
 			draw_set_color(c_black);
 			draw_sprite_stretched(spr_facility, type, mouse_x-((infobox_x+100)/2)-30, mouse_y+70, 60, 60);
 			draw_set_font(eng26);

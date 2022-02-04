@@ -25,19 +25,19 @@
   "gridY": 10,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"eebaadc9-23f5-4b20-af4d-791bb0ef81ad","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"fe74e66b-5f52-461c-ac0a-f513f9053161","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"792265bc-6a08-4a9b-a144-05263323d247","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"fe74e66b-5f52-461c-ac0a-f513f9053161","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"eebaadc9-23f5-4b20-af4d-791bb0ef81ad","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_sellButton","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"5ca7beec-231c-4bff-815c-4aa0995bc74a","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"575dd626-65d6-411e-85b5-8ad472cfc1ac","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"575dd626-65d6-411e-85b5-8ad472cfc1ac","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"792265bc-6a08-4a9b-a144-05263323d247","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"575dd626-65d6-411e-85b5-8ad472cfc1ac","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"fe74e66b-5f52-461c-ac0a-f513f9053161","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"575dd626-65d6-411e-85b5-8ad472cfc1ac","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"eebaadc9-23f5-4b20-af4d-791bb0ef81ad","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"575dd626-65d6-411e-85b5-8ad472cfc1ac","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"792265bc-6a08-4a9b-a144-05263323d247","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_sellButton","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"575dd626-65d6-411e-85b5-8ad472cfc1ac","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"b6ffda17-1a30-4a16-a0a5-d6afb5c16501","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b6ffda17-1a30-4a16-a0a5-d6afb5c16501","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"792265bc-6a08-4a9b-a144-05263323d247","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"b6ffda17-1a30-4a16-a0a5-d6afb5c16501","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"fe74e66b-5f52-461c-ac0a-f513f9053161","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"b6ffda17-1a30-4a16-a0a5-d6afb5c16501","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"eebaadc9-23f5-4b20-af4d-791bb0ef81ad","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"b6ffda17-1a30-4a16-a0a5-d6afb5c16501","path":"sprites/spr_sellButton/spr_sellButton.yy",},"LayerId":{"name":"792265bc-6a08-4a9b-a144-05263323d247","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_sellButton","path":"sprites/spr_sellButton/spr_sellButton.yy",},"resourceVersion":"1.0","name":"b6ffda17-1a30-4a16-a0a5-d6afb5c16501","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -86,7 +86,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Trade",
-    "path": "folders/Sprites/Trade.yy",
+    "path": "folders/Sprites/IN-GAME/Trade.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sellButton",

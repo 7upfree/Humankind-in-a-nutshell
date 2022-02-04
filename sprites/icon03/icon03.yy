@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "unlock icons",
-    "path": "folders/Sprites/Technology/unlock icons.yy",
+    "path": "folders/Sprites/IN-GAME/Technology/unlock icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "icon03",

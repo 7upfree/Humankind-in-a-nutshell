@@ -69,7 +69,7 @@ function faci_index(type){
 				return facil_count[| index];
 			}
 		}
-		else if (type == 6)	// market
+		else if (type == 7)	// market
 		{
 			if (facil_count[| index] > 5)
 			{

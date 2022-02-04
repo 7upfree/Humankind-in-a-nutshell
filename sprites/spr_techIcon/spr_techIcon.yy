@@ -225,7 +225,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Technology",
-    "path": "folders/Sprites/Technology.yy",
+    "path": "folders/Sprites/IN-GAME/Technology.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_techIcon",

@@ -31,6 +31,7 @@ t_enemyAttack = -1;
 t_choice = -1;
 t_raid = -1;
 t_raid2 = -1;
+global.t_figure = -1;
 
 turnEff = -1;
 #endregion

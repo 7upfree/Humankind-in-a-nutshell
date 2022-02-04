@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Symbol",
-    "path": "folders/Objects/Symbol.yy",
+    "path": "folders/Objects/IN-GAME/Symbol.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mask",

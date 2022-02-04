@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Traits",
-    "path": "folders/Sprites/Traits.yy",
+    "path": "folders/Sprites/IN-GAME/Traits.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_traits",

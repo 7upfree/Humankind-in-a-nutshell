@@ -1,5 +1,5 @@
 #macro technology_count 20
-#macro symbol_count 45
+#macro symbol_count 74
 #macro infobox_x 520
 
 #region player stats
@@ -121,6 +121,15 @@ globalvar warrior;
 warrior = 0;
 globalvar armour1;
 armour1 = 0;
+globalvar armour;
+armour = 0;
+#endregion
+
+#region figure stats
+
+globalvar figure_point;
+figure_point = 0;
+
 #endregion
 
 globalvar gameover;

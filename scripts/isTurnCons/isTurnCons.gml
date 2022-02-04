@@ -3,5 +3,6 @@ function isTurnCons(iid){
 	else if (owned[| iid] == 16) {return true;}
 	else if (owned[| iid] == 17) {return true;}
 	else if (owned[| iid] == 18) {return true;}
+	else if (owned[| iid] == 51) {return true;}
 	else {return false;}
 }

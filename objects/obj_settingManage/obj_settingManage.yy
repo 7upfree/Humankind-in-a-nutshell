@@ -22,7 +22,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Settings",
-    "path": "folders/Objects/Settings.yy",
+    "path": "folders/Objects/IN-GAME/Settings.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_settingManage",

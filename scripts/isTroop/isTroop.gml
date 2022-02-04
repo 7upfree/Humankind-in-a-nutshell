@@ -4,5 +4,9 @@ function isTroop(iid){
 	if (owned[| iid] == 27) {return true;}
 	else if (owned[| iid] == 30) {return true;}
 	else if (owned[| iid] == 38) {return true;}
+	else if (owned[| iid] == 54) {return true;}
+	else if (owned[| iid] == 62) {return true;}
+	else if (owned[| iid] == 69) {return true;}
+	else if (owned[| iid] == 71) {return true;}
 	else {return false;}
 }

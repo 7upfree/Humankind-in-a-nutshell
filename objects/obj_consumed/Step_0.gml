@@ -193,6 +193,24 @@ if (destroy_timer == 0)
 			add_gold(20+(era*5));
 		}
 	}
+	else if (type == 51)	// Galley
+	{
+		h_food[| object] += 1;
+	}
+	else if (type == 52)	// Trebuchet Blueprint
+	{
+		owned[| main] = 53;
+		owned[| object] = 0;
+	}
+	else if (type == 58)	// Telescope
+	{
+		add_inspi(5);
+	}
+	else if (type == 60)	// Order of Chivalry
+	{
+		owned[| main] = 61;
+		owned[| object] = 0;
+	}
 	
 	if (isConsumable(object))
 	{

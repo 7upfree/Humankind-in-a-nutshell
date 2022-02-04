@@ -104,8 +104,8 @@
   "gridY": 20,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"45724398-570a-43bb-b64a-daee25db3afd","path":"sprites/spr_spin/spr_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45724398-570a-43bb-b64a-daee25db3afd","path":"sprites/spr_spin/spr_spin.yy",},"LayerId":{"name":"fd9ef15f-8f73-4e57-a4cd-d4d2af9e1898","path":"sprites/spr_spin/spr_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"45724398-570a-43bb-b64a-daee25db3afd","path":"sprites/spr_spin/spr_spin.yy",},"LayerId":{"name":"0ac52ee9-9207-4e60-9602-56e05715c7cd","path":"sprites/spr_spin/spr_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"45724398-570a-43bb-b64a-daee25db3afd","path":"sprites/spr_spin/spr_spin.yy",},"LayerId":{"name":"fd9ef15f-8f73-4e57-a4cd-d4d2af9e1898","path":"sprites/spr_spin/spr_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_spin","path":"sprites/spr_spin/spr_spin.yy",},"resourceVersion":"1.0","name":"45724398-570a-43bb-b64a-daee25db3afd","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"4a265043-3bbb-4a9b-aefe-4a048797fb38","path":"sprites/spr_spin/spr_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4a265043-3bbb-4a9b-aefe-4a048797fb38","path":"sprites/spr_spin/spr_spin.yy",},"LayerId":{"name":"0ac52ee9-9207-4e60-9602-56e05715c7cd","path":"sprites/spr_spin/spr_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -155,8 +155,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "IN-GAME",
+    "path": "folders/Sprites/IN-GAME.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_spin",

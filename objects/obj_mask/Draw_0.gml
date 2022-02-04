@@ -1,4 +1,4 @@
-if (t_shake > 0 && main == Id)
+ if (t_shake > 0 && main == Id)
 {
 	draw_sprite_ext(sprite_index, image_index, x  + irandom_range(-5, 5), y + irandom_range(-5, 5), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
 }
@@ -50,6 +50,28 @@ else if (turnEff > 0 && object == Id)
 		draw_sprite_ext(sprite_index, image_index, x, y - turnEff, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
 	}
 }
+else if (global.t_figure > 0 && main == Id)
+{
+	if (global.t_figure > 10)
+	{
+		draw_sprite_ext(sprite_index, image_index, x, y - global.t_figure + 20, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+	else
+	{
+		draw_sprite_ext(sprite_index, image_index, x, y - global.t_figure, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+}
+else if (global.t_figure > 0 && object == Id)
+{
+	if (global.t_figure > 10)
+	{
+		draw_sprite_ext(sprite_index, image_index, x, y - global.t_figure + 20, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+	else
+	{
+		draw_sprite_ext(sprite_index, image_index, x, y - global.t_figure, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+	}
+}
 else
 {
 	draw_self();
@@ -87,12 +109,24 @@ else if (isTroop(Id) || isEnemy(Id))
 	draw_text(x+80, y+40, string(s_armor[| Id]));
 	draw_reset();
 }
-else if (isTurnCons(Id))
+else if (isTradeSymbol(Id))
 {
 	draw_set_font(eng26);
 	draw_set_halign(fa_center);
 	draw_set_color(c_grey);
 	draw_text(x+90, y+40, string(s_turn[| Id]));
+	
+	draw_set_font(eng22);
+	draw_set_halign(fa_center);
+	draw_set_color(c_olive);
+	draw_text(x-80, y+40, string(h_food[| Id]));
+}
+else if (isTurnCons(Id) || isFigure(Id))
+{
+	draw_set_font(eng26);
+	draw_set_halign(fa_center);
+	draw_set_color(c_grey);
+	draw_text(x+80, y-70, string(s_turn[| Id]));
 }
 
 #endregion

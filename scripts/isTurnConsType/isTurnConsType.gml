@@ -3,5 +3,6 @@ function isTurnConsType(type){
 	else if (type == 16) {return true;}
 	else if (type == 17) {return true;}
 	else if (type == 18) {return true;}
+	else if (type == 51) {return true;}
 	else {return false;}
 }

@@ -30,13 +30,13 @@ if (traits_ON)
 		}
 		
 		
-		instance_create_layer(0, -1080, "windows01", obj_traitsBackground);
+		instance_create_layer(0, 0, "windows01", obj_traitsBackground);
 		
 		traitsShip = 0;
-		instance_create_layer(40, -1000, "windows02", obj_traits);
+		instance_create_layer(40, 150, "windows02", obj_traits);
 		traitsShip = 1;
-		instance_create_layer(660, -1000, "windows02", obj_traits);
+		instance_create_layer(660, 150, "windows02", obj_traits);
 		traitsShip = 2;
-		instance_create_layer(1280, -1000, "windows02", obj_traits);
+		instance_create_layer(1280, 150, "windows02", obj_traits);
 	}
 }

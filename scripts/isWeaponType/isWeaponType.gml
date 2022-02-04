@@ -4,5 +4,7 @@ function isWeaponType(iid){
 	if (iid == 25) {return true;}
 	else if (iid == 28) {return true;}
 	else if (iid == 36) {return true;}
+	else if (iid == 52) {return true;}
+	else if (iid == 60) {return true;}
 	else {return false;}
 }

@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Traits",
-    "path": "folders/Objects/Traits.yy",
+    "path": "folders/Objects/IN-GAME/Traits.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_traitsManage",

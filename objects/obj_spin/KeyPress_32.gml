@@ -44,6 +44,10 @@ else if (year < 0)
 {
 	year += 25;
 }
+else if (year < 1500)
+{
+	year += 15;
+}
 
 if (year == -3900)
 {
@@ -128,6 +132,21 @@ while (tx < ds_list_size(s_turn))
 	}
 	tx++;
 }
+#endregion
+
+#region facility turn handling
+
+if (pyramid != -1)
+{
+	pyramid--;
+	if (pyramid == 0)
+	{
+		add_symbol(22);
+		view_in_slot();
+		pyramid = 10;
+	}
+}
+
 #endregion
 
 #region event handling

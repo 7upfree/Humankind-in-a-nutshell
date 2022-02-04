@@ -10,5 +10,7 @@ function id_to_icon(iid){
 	else if (iid == 6)	{return icon06;}
 	else if (iid == 7)	{return icon07;}
 	else if (iid == 8)	{return icon08;}
+	else if (iid == 9)	{return icon09;}
+	else if (iid == 10)	{return icon10;}
 	else				{return -1;}
 }

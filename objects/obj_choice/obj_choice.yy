@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Choice",
-    "path": "folders/Objects/Choice.yy",
+    "path": "folders/Objects/IN-GAME/Choice.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_choice",

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Trade",
-    "path": "folders/Sprites/Trade.yy",
+    "path": "folders/Sprites/IN-GAME/Trade.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tradeButton",

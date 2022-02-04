@@ -4,5 +4,7 @@ function isWeapon(iid){
 	if (owned[| iid] == 25) {return true;}
 	else if (owned[| iid] == 28) {return true;}
 	else if (owned[| iid] == 36) {return true;}
+	else if (owned[| iid] == 52) {return true;}
+	else if (owned[| iid] == 60) {return true;}
 	else {return false;}
 }

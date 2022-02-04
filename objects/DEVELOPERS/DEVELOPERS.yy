@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Dev",
-    "path": "folders/Objects/Dev.yy",
+    "path": "folders/Objects/IN-GAME/Dev.yy",
   },
   "resourceVersion": "1.0",
   "name": "DEVELOPERS",

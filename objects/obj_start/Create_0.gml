@@ -1,9 +1,6 @@
 globalvar load;
 load = 0;
 
-globalvar stage;
-stage = 0;
-
 if (load == 0) // if it's a new game
 {
 	add_symbol(1);

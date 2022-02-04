@@ -1,5 +1,13 @@
-draw_self();
+if (trait_alpha < 1)
+{
+	draw_sprite_ext(spr_traitsBackground, 0, x, y, image_xscale, trait_alpha, image_angle, image_blend, trait_alpha);
+}
+else
+{
+	draw_self();
+}
 
+draw_set_alpha(trait_alpha);
 draw_set_color(c_dkgray);
 draw_set_font(eng50);
 draw_set_halign(fa_center);

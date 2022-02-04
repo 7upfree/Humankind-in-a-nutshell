@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "ETC",
-    "path": "folders/Sprites/ETC.yy",
+    "path": "folders/Sprites/IN-GAME/ETC.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_slotMachine",
