@@ -19,6 +19,12 @@ function completed(type){
 		if (faci_index(type) == 5)
 		{
 			available[| type] = 0;
+			
+			if (sarazm == 1)
+			{
+				rarity[| 9] = 1;
+				available[| 9] = 20;
+			}
 		}
 	}
 	else if (type == 26)	// warrior
@@ -129,6 +135,8 @@ function completed(type){
 	{
 		owned[| object] = 0;
 		add_facility(14);
+		
+		global.figureTurn += 2;
 	}
 	else if (type == 56)	// bank site
 	{
@@ -154,6 +162,8 @@ function completed(type){
 	{
 		owned[| object] = 0;
 		add_facility(15);
+		
+		global.cheomseongdae = 0;
 	}
 	else if (type == 61)	// knight
 	{

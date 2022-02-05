@@ -36,12 +36,10 @@ labourers1 = 0;
 globalvar feudalism;
 globalvar reform;
 globalvar mercantilism;
-globalvar monastery;
 globalvar mercenary;
 feudalism = 0;
 reform = 0;
 mercantilism = 0;
-monastery = 0;
 mercenary = 0;
 
 globalvar merchants2;

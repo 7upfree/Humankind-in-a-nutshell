@@ -112,7 +112,7 @@ function fourways(type, isFacility, inverse){
 			draw_set_color(c_red);
 			draw_text(mouse_x+infobox_x/2,mouse_y+50-count,rarityString(rarity[| type]));
 		}
-		else if (rarity[| type] == 100) // settlement
+		else if (rarity[| type] == 100) // figure
 		{
 			draw_set_color(c_grey);
 			draw_text(mouse_x+infobox_x/2,mouse_y+50-count,rarityString(rarity[| type]));

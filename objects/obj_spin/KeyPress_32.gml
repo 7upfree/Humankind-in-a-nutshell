@@ -86,6 +86,16 @@ while(prodx < ds_list_size(h_curProd))
 gold += goldTurn;
 inspiration += inspi_turn;
 barbProb += barbProbTurn;
+global.figureP += global.figureTurn;
+
+if (global.figureP >= global.figureMax)
+{
+	global.figurePick = 1;
+	
+	global.figureP -= global.figureMax;
+	
+	global.figureMax *= 2;
+}
 #endregion
 
 #region reset soldout ds_list

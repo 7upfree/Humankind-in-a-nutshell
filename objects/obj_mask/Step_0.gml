@@ -166,7 +166,7 @@ if (main == Id && main != -1)
 		{
 			add_food(2, 0);
 			add_gold(2);
-			add_labour(2);
+			add_labour(2, 0);
 		}
 		else if (id_to_type(main) == 72)	// Hippocrates
 		{
@@ -179,7 +179,7 @@ if (main == Id && main != -1)
 		else if (id_to_type(main) == 73)	// Archimedes
 		{
 			add_inspi(1);
-			add_labour(3);
+			add_labour(3, 0);
 		}
 		
 		global.t_figure = -1;

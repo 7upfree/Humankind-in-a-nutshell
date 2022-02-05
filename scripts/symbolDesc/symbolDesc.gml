@@ -931,6 +931,156 @@ function symbolDesc(type, outcome){
 			return "1 Production required\nto build a factory.";
 		}
 	}
+	else if (type == 64)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Pythagoras"
+		}
+		else if (outcome == 2)
+		{
+			return "+20 inspiration when\npythagoras is on slot 1";
+		}
+	}
+	else if (type == 65)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
+			return "Pericles"
+		}
+		else if (outcome == 2)
+		{							//pythagoras is on slot 1else if (type == 65)	
+			return "+1 damage to nearby\ntroops. +1 inspiration\nto nearby settlement.";
+		}
+	}
+	else if (type == 66)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Socrates"
+		}
+		else if (outcome == 2)
+		{			//pythagoras is on slot 1		
+			return "+2 inspiration to\nnearby settlement.";
+		}
+	}
+	else if (type == 67)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Plato"
+		}
+		else if (outcome == 2)
+		{		  	
+			return "Build nearby library\nsite into Library.";
+		}
+	}
+	else if (type == 68)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Aristoteles"
+		}
+		else if (outcome == 2)
+		{		  //pythagoras is on slot 1		
+			return "+1 inspiration / turn";
+		}
+	}
+	else if (type == 69)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Alexander the great"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides 2 settlements\nwhen destroyed.";
+		}
+	}
+	else if (type == 70)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
+			return "Venizelos"
+		}
+		else if (outcome == 2)
+		{							 //pythagoras is on slot 1	
+			return "+2 food, +2 gold,\n+2 labour to\nnearby settlement.";
+		}
+	}
+	else if (type == 71)
+	{
+		if (outcome == 0)
+		{
+			return 1;
+		}
+		else if (outcome == 1)
+		{
+			return "Leonidas I"
+		}
+		else if (outcome == 2)
+		{			 //pythagoras is on slot 1	
+			return "Provided with 2 warriors.";
+		}
+	}
+	else if (type == 72)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
+			return "Hippocrates"
+		}
+		else if (outcome == 2)
+		{		  //pythagoras is on slot 1	
+			return "+1 inspiration\n& +1 armour\nto nearby troops.";
+		}
+	}
+	else if (type == 73)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
+			return "Archimedes"
+		}
+		else if (outcome == 2)
+		{		  //pythagoras is on slot 1	
+			return "+3 labour &\n+1 inspiration to\nnearby settlement.";
+		}
+	}
 	else
 	{
 		return 0;

@@ -8,7 +8,11 @@ if (all_down(2) && y > 0)
 		available[| typeId] = 0;
 	}
 	
-	if (newera != 1)
+	if (global.figurePick == 1)
+	{
+		figure_ON = 1;
+	}
+	else if (newera != 1)
 	{
 		spinable = 1; // temporary // to be replaced by turndone
 	}

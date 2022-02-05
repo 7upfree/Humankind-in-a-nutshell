@@ -9,11 +9,11 @@ function traitsDesc(type, outcome){
 		}
 		else if (outcome == 1)
 		{
-			return "Increases the limit\nof pasture.\n\n1/3/5/7/9\n|\n1/3/5/7/9/11/13/15";
+			return "Sheep becomes common\nsymbol when 5 pastures\nare built.";
 		}
 		else if (outcome == 2)
 		{
-			return 6;
+			return 3;
 		}
 	}
 	else if (type == 2)
@@ -249,11 +249,11 @@ function traitsDesc(type, outcome){
 		}
 		else if (outcome == 1)
 		{
-			return "Increases the limit\nof farm.\n\n1/2/3/4/5\n|\n1/~/6/7/8/9";
+			return "Immediately provides\n3 food chests.";
 		}
 		else if (outcome == 2)
 		{
-			return 6;
+			return 2;
 		}
 	}
 	else if (type == 27)

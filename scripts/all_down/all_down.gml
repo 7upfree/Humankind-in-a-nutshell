@@ -8,6 +8,7 @@ function all_down(except)
 	if (trade_ON != -1 && except != 3) {return false;}
 	if (traits_ON != -1 && except != 4) {return false;}
 	if (sell_ON != -1 && except != 5) {return false;}
+	if (figure_ON != -1 && except != 6) {return false;}
 	if (gameover == 1) {return false;}
 	else {return true;}
 }

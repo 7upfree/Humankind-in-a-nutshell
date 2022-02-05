@@ -97,7 +97,7 @@ function inspiDesc(type, nth, outcome){
 			}
 			else if (outcome == 2)
 			{
-				return "Pharos lighthouse doubles the gold\nearned by pearl.\n\nspecial facility\n3 production required"
+				return "Pharos lighthouse doubles the gold\nearned by pearl.\n\nspecial facility\n2 production required"
 			}
 		}
 		else
@@ -238,6 +238,286 @@ function inspiDesc(type, nth, outcome){
 			else if (outcome == 2)
 			{
 				return "Build a market to increase gold\nearned each turn.\n\nfacility\n1 production required"
+			}
+		}
+		else if (nth == 1)
+		{
+			if (outcome == 0)
+			{
+				return 3;
+			}
+			else if (outcome == 1)
+			{
+				return "Sell Symbols"
+			}
+			else if (outcome == 2)
+			{
+				return "You can sell symbol in the trade menu.\n\nfeature"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 9)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 4;
+			}
+			else if (outcome == 1)
+			{
+				return "Change of era"
+			}
+			else if (outcome == 2)
+			{
+				return "Ancient Ruins & Ancient Ritual is not\navailable anymore.\n\nNew era"
+			}
+		}
+		else if (nth == 1)
+		{
+			if (outcome == 0)
+			{
+				return 3;
+			}
+			else if (outcome == 1)
+			{
+				return "New trait"
+			}
+			else if (outcome == 2)
+			{
+				return "Select a trait for the new era.\n\nfeature"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 10)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "Figure";
+			}
+			else if (outcome == 2)
+			{
+				return "You can attain various different\nfigure of your nation by collecting\nfigure points.\n\nfeature";
+			}
+		}
+		else if (nth == 1)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "University Site"
+			}
+			else if (outcome == 2)
+			{
+				return "Build an university to increase figure\npoint earned each turn.\n\nfacility\n2 production required"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 11)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 3;
+			}
+			else if (outcome == 1)
+			{
+				return "Galley";
+			}
+			else if (outcome == 2)
+			{
+				return "Get a galley to earn golds.\n\nTrade Symbol";
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 12)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 6;
+			}
+			else if (outcome == 1)
+			{
+				return "Trebuchet Blueprint";
+			}
+			else if (outcome == 2)
+			{
+				return "Replace Bow and Arrow.\nBuild a trebuchet by combining\ntrebuchet blueprint with trainee.\n\nweapon\n1 production required";
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 13)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "Taj Mahal Site"
+			}
+			else if (outcome == 2)
+			{
+				return "Taj Mahal provides +2 figure points\nand +1 gold every turn.\n\nspecial facility\n4 production required"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 14)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "Bank Site"
+			}
+			else if (outcome == 2)
+			{
+				return "Build a bank to increase\ngold earned each turn.\n\nfacility\n2 production required"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 15)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "Press Site"
+			}
+			else if (outcome == 2)
+			{
+				return "Build a press to increase\ninspiration earned each turn.\n\nfacility\n2 production required"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 16)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 3;
+			}
+			else if (outcome == 1)
+			{
+				return "Telescope"
+			}
+			else if (outcome == 2)
+			{
+				return "Telescope provides +5 inspiration.\n\nconsumable"
+			}
+		}
+		else if (nth == 1)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "Cheomseongdae Site"
+			}
+			else if (outcome == 2)
+			{
+				return "Cheomseongdae provides a figure every\n10 telescopes.\n\nspecial facility\n4 production required"
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 17)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 6;
+			}
+			else if (outcome == 1)
+			{
+				return "Order of Chivalry";
+			}
+			else if (outcome == 2)
+			{
+				return "Replace Iron. Build a knight by combining order of\nchivalry with trainee.\n\nweapon\n1 production required";
+			}
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	else if (type == 18)
+	{
+		if (nth == 0)
+		{
+			if (outcome == 0)
+			{
+				return 5;
+			}
+			else if (outcome == 1)
+			{
+				return "Factory Site"
+			}
+			else if (outcome == 2)
+			{
+				return "Build a factory to increase\nlabour earned each turn.\n\nfacility\n2 production required"
 			}
 		}
 		else

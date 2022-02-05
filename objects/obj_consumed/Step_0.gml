@@ -102,7 +102,7 @@ if (destroy_timer == 0)
 	}
 	else if (type == 17)	// Caravan
 	{
-		add_labour(1);
+		add_labour(1, 1);
 	}
 	else if (type == 18)	// Traveller
 	{
@@ -182,7 +182,7 @@ if (destroy_timer == 0)
 		
 		if (r_labour == 0)
 		{
-			add_labour(10+(era*5));
+			add_labour(10+(era*5), 1);
 		}
 		else if (r_labour == 1)
 		{

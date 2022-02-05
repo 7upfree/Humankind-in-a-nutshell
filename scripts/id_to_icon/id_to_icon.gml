@@ -12,5 +12,14 @@ function id_to_icon(iid){
 	else if (iid == 8)	{return icon08;}
 	else if (iid == 9)	{return icon09;}
 	else if (iid == 10)	{return icon10;}
+	else if (iid == 11)	{return icon11;}
+	else if (iid == 12)	{return icon12;}
+	else if (iid == 13)	{return icon13;}
+	else if (iid == 14)	{return icon14;}
+	else if (iid == 15)	{return icon15;}
+	else if (iid == 16)	{return icon16;}
+	else if (iid == 17)	{return icon17;}
+	else if (iid == 18)	{return icon18;}
+	else if (iid == 19)	{return icon19;}
 	else				{return -1;}
 }

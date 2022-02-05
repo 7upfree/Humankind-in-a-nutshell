@@ -91,12 +91,9 @@ if (t_battle2 == 0)
 		else if (id_to_type(main) == 69)
 		{
 			add_symbol(1);
+			view_in_slot();
 			add_symbol(1);
-		}
-		else if (id_to_type(main) == 71)
-		{
-			add_symbol(27);
-			add_symbol(27);
+			view_in_slot();
 		}
 		
 		t_shake = 30;
@@ -180,6 +177,14 @@ if (t_battle2 == 0)
 				view_in_slot();
 			}
 		}
+		else if (id_to_type(object) == 69)
+		{
+			add_symbol(1);
+			view_in_slot();
+			add_symbol(1);
+			view_in_slot();
+		}
+
 		
 		t_shakeO = 30;
 		shake = 1;

@@ -12,3 +12,7 @@ if (image_index == 9)
 {
 	draw_text(x+10, y+145, string(pyramid));
 }
+else if (image_index == 15)
+{
+	draw_text(x+10, y+145, string(global.cheomseongdae));
+}

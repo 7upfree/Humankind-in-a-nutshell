@@ -126,7 +126,7 @@ else if (isTurnCons(Id) || isFigure(Id))
 	draw_set_font(eng26);
 	draw_set_halign(fa_center);
 	draw_set_color(c_grey);
-	draw_text(x+80, y-70, string(s_turn[| Id]));
+	draw_text(x+80, y-90, string(s_turn[| Id]));
 }
 
 #endregion

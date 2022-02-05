@@ -2,7 +2,7 @@ if (era == 0 && obj_traitsBackground.trait_alpha > 1)
 {
 	if (traitsType == 1)
 	{
-		sarazm = 6; // 9+6 = 15
+		sarazm = 1;
 	}
 	else if (traitsType == 2)
 	{
@@ -81,7 +81,13 @@ else if (era == 1 && obj_traitsBackground.trait_alpha > 1)
 	}
 	else if (traitsType == 6)
 	{
-		monastery = 4;
+		add_symbol(45);
+		add_symbol(45);
+		add_symbol(45);
+		
+		view_in_slot();
+		view_in_slot();
+		view_in_slot();
 	}
 	else if (traitsType == 27)
 	{

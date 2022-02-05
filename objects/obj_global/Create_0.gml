@@ -9,17 +9,10 @@ globalvar goldTurn;
 goldTurn = 1;
 #endregion
 
+#region owned & symbol stats
+
 globalvar owned;
 owned = ds_list_create();
-
-globalvar year;
-year = -4000;
-globalvar era;
-era = 0;
-
-globalvar newera;
-newera = 0;
-
 globalvar h_food;
 globalvar s_cp;
 globalvar s_armor;
@@ -36,11 +29,24 @@ s_prodCount = ds_list_create();
 h_turnProd = ds_list_create();
 h_curProd = ds_list_create();
 #endregion
+#endregion
 
+#region year & era
+globalvar year;
+year = -4000;
+globalvar era;
+era = 0;
+
+globalvar newera;
+newera = 0;
+#endregion
+
+#region available & shuffle ds_list
 globalvar available;
 available = ds_list_create();
 globalvar shuffled;
 shuffled = ds_list_create();
+#endregion
 
 #region symbol rarity
 globalvar rarity;
@@ -114,6 +120,7 @@ globalvar pyramid;
 pyramid = -1;
 globalvar pharos;
 pharos = 0;
+global.cheomseongdae = -1;
 #endregion
 
 #region troop extra
@@ -127,8 +134,11 @@ armour = 0;
 
 #region figure stats
 
-globalvar figure_point;
-figure_point = 0;
+global.figureP = 0;
+global.figureMax = 20;
+global.figureTurn = 0;
+
+global.figurePick = 0;
 
 #endregion
 

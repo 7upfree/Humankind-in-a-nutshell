@@ -4,7 +4,8 @@ function goldTurn_sum(){
 	+ faci_index(7)
 	+ autocracy
 	+ merchants1
-	+ merchants2;
+	+ merchants2
+	+ faci_index(14);
 	
 	return sum;
 }

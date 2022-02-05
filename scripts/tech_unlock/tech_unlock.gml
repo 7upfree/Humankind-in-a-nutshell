@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function tech_unlock(iid){
 	if (iid == 0)
 	{
@@ -54,7 +52,51 @@ function tech_unlock(iid){
 	}
 	else if (iid == 9)
 	{
+		available[| 13] = 0;
+		available[| 14] = 0;
+		
 		era = 1;
 		newera = 1;
+	}
+	else if (iid == 10)
+	{
+		global.figureTurn = 1;
+		
+		available[| 50] = 2;
+	}
+	else if (iid == 11)
+	{
+		available[| 51] = 5;
+	}
+	else if (iid == 12)
+	{
+		available[| 52] = 20;
+		available[| 28] = 0;
+	}
+	else if (iid == 13)
+	{
+		available[| 55] = 1;
+	}
+	else if (iid == 14)
+	{
+		available[| 56] = 2;
+	}
+	else if (iid == 15)
+	{
+		available[| 57] = 2;
+	}
+	else if (iid == 16)
+	{
+		available[| 58] = 5;
+		available[| 59] = 1;
+	}
+	else if (iid == 17)
+	{
+		available[| 60] = 20;
+		available[| 36] = 0;
+	}
+	else if (iid == 18)
+	{
+		available[| 63] = 2;
 	}
 }

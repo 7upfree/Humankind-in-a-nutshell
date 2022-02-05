@@ -22,12 +22,14 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "IN-GAME",
-    "path": "folders/Objects/IN-GAME.yy",
+    "name": "LEFT BLOCK",
+    "path": "folders/Objects/IN-GAME/LEFT BLOCK.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_figure",
