@@ -10,6 +10,6 @@ if (obj_figure.figure_alpha >= 1)
 	}
 	else
 	{
-		spinable = 1; // to be replaced with turndone
+		global.turnDone = 1;
 	}
 }

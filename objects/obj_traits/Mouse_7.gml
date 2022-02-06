@@ -47,11 +47,10 @@ if (era == 0 && obj_traitsBackground.trait_alpha > 1)
 		labourers1 = 2;
 	}
 	
-	spinable = 1; // to be replaced with turndone
+	global.turnDone = 1;
 	traits_ON = 0;
 	
-	traitsShip = traitsType;
-	instance_create_layer(200, 37, "lower00", obj_traitFaci);
+	global.trait1 = traitsType;
 }
 else if (era == 1 && obj_traitsBackground.trait_alpha > 1)
 {
@@ -106,9 +105,8 @@ else if (era == 1 && obj_traitsBackground.trait_alpha > 1)
 		labourers2 = 3;
 	}
 	
-	spinable = 1; // to be replaced with turndone
+	global.turnDone = 1;
 	traits_ON = 0;
 	
-	traitsShip = traitsType;
-	instance_create_layer(22, 217, "lower00", obj_traitFaci);
+	global.trait2 = traitsType;
 }

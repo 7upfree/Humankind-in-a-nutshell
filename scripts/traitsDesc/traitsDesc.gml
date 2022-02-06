@@ -88,7 +88,7 @@ function traitsDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return 2;
+			return 3;
 		}
 	}
 	else if (type == 7)

@@ -14,7 +14,7 @@ if (all_down(2) && y > 0)
 	}
 	else if (newera != 1)
 	{
-		spinable = 1; // temporary // to be replaced by turndone
+		global.turnDone = 1;
 	}
 	else
 	{

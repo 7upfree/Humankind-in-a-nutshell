@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_choiceWindow",
-    "path": "sprites/spr_choiceWindow/spr_choiceWindow.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Choice",
-    "path": "folders/Objects/IN-GAME/Choice.yy",
+    "name": "IN-GAME",
+    "path": "folders/Objects/IN-GAME.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_choiceWindow",
+  "name": "obj_turnDone",
   "tags": [],
   "resourceType": "GMObject",
 }

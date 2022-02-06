@@ -4,6 +4,13 @@ traitsShip = 0;
 globalvar traitsShuffle;
 traitsShuffle = ds_list_create();
 
+global.trait1 = 0;
+global.trait2 = 0;
+
+traitsShip = 0;
+instance_create_layer(200, 37, "lower00", obj_traitFaci);
+traitsShip = 1;
+instance_create_layer(22, 217, "lower00", obj_traitFaci);
 
 #region traits ancient
 

@@ -9,3 +9,8 @@ if (mouse_enter_play_button() && mouse_check_button_pressed(mb_left))
 		room_goto(Main);
 	}
 }
+
+if (stage_id != 1)
+{
+	unavailable = 1;
+}

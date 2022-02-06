@@ -1,0 +1,1 @@
+global.turnDone = 0;

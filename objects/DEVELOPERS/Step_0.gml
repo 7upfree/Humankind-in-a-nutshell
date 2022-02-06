@@ -48,3 +48,8 @@ if (keyboard_check_pressed(vk_numpad7))
 {
 	add_facility(7);
 }
+
+if (keyboard_check_pressed(vk_backspace))
+{
+	room_goto(Menu);
+}
