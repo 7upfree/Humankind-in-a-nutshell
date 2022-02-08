@@ -116,10 +116,10 @@ else if (isTradeSymbol(Id))
 	draw_set_color(c_grey);
 	draw_text(x+90, y+40, string(s_turn[| Id]));
 	
-	draw_set_font(eng22);
+	draw_set_font(eng26);
 	draw_set_halign(fa_center);
 	draw_set_color(c_olive);
-	draw_text(x-80, y+40, string(h_food[| Id]));
+	draw_text(x-90, y+40, string(h_food[| Id]));
 }
 else if (isTurnCons(Id) || isFigure(Id))
 {

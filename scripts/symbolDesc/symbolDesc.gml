@@ -733,7 +733,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1 Production required\nto build an university.";
+			return "2 Production required\nto build an university.";
 		}
 	}
 	else if (type == 51)
@@ -808,7 +808,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "3 Production required\nto build Taj mahal.";
+			return "4 Production required\nto build Taj mahal.";
 		}
 	}
 	else if (type == 56)
@@ -823,7 +823,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1 Production required\nto build a bank.";
+			return "2 Production required\nto build a bank.";
 		}
 	}
 	else if (type == 57)
@@ -838,7 +838,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1 Production required\nto build a press.";
+			return "2 Production required\nto build a press.";
 		}
 	}
 	else if (type == 58)
@@ -868,7 +868,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "3 Production required\nto build Cheomseongdae.";
+			return "4 Production required\nto build Cheomseongdae.";
 		}
 	}
 	else if (type == 60)
@@ -928,25 +928,10 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "1 Production required\nto build a factory.";
+			return "2 Production required\nto build a factory.";
 		}
 	}
 	else if (type == 64)
-	{
-		if (outcome == 0)
-		{
-			return 2;
-		}
-		else if (outcome == 1)
-		{
-			return "Pythagoras"
-		}
-		else if (outcome == 2)
-		{
-			return "+20 inspiration when\npythagoras is on slot 1";
-		}
-	}
-	else if (type == 65)
 	{
 		if (outcome == 0)
 		{
@@ -954,11 +939,26 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 1)
 		{
+			return "Pythagoras"
+		}
+		else if (outcome == 2)
+		{
+			return "+20 inspiration\nwhen pythagoras is\non slot 1";
+		}
+	}
+	else if (type == 65)
+	{
+		if (outcome == 0)
+		{
+			return 4;
+		}
+		else if (outcome == 1)
+		{
 			return "Pericles"
 		}
 		else if (outcome == 2)
-		{							//pythagoras is on slot 1else if (type == 65)	
-			return "+1 damage to nearby\ntroops. +1 inspiration\nto nearby settlement.";
+		{							
+			return "+1 damage to\nnearby troops.\n+1 inspiration to\nnearby settlement.";
 		}
 	}
 	else if (type == 66)
@@ -980,7 +980,7 @@ function symbolDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 2;
+			return 3;
 		}
 		else if (outcome == 1)
 		{
@@ -988,25 +988,10 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{		  	
-			return "Build nearby library\nsite into Library.";
+			return "Build nearby\nlibrary site\ninto Library.";
 		}
 	}
 	else if (type == 68)
-	{
-		if (outcome == 0)
-		{
-			return 1;
-		}
-		else if (outcome == 1)
-		{
-			return "Aristoteles"
-		}
-		else if (outcome == 2)
-		{		  //pythagoras is on slot 1		
-			return "+1 inspiration / turn";
-		}
-	}
-	else if (type == 69)
 	{
 		if (outcome == 0)
 		{
@@ -1014,11 +999,26 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 1)
 		{
+			return "Aristoteles"
+		}
+		else if (outcome == 2)
+		{		  //pythagoras is on slot 1		
+			return "+1 inspiration\n/turn";
+		}
+	}
+	else if (type == 69)
+	{
+		if (outcome == 0)
+		{
+			return 3;
+		}
+		else if (outcome == 1)
+		{
 			return "Alexander the great"
 		}
 		else if (outcome == 2)
 		{
-			return "Provides 2 settlements\nwhen destroyed.";
+			return "Provides 2\nsettlements when\ndestroyed.";
 		}
 	}
 	else if (type == 70)
@@ -1040,7 +1040,7 @@ function symbolDesc(type, outcome){
 	{
 		if (outcome == 0)
 		{
-			return 1;
+			return 2;
 		}
 		else if (outcome == 1)
 		{
@@ -1048,7 +1048,7 @@ function symbolDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{			 //pythagoras is on slot 1	
-			return "Provided with 2 warriors.";
+			return "Provided with\n2 warriors.";
 		}
 	}
 	else if (type == 72)

@@ -2,6 +2,10 @@ function figureInfo(type){
 	draw_set_halign(fa_center);
 	draw_set_color(c_black);
 	draw_set_font(eng32);
+	if (type == 69)
+	{
+		draw_set_font(eng22);
+	}
 	draw_text(x+300, y+100, symbolDesc(type, 1));
 	draw_sprite(spr_symbol, type, x+300, y+300);
 	draw_set_font(eng22);
@@ -22,7 +26,7 @@ function figureInfo(type){
 		draw_text(x+380, y+340, string(13+(era*2)));
 		draw_reset();
 	}
-	if (type == 71)
+	else if (type == 71)
 	{
 		draw_set_font(eng22);
 		draw_set_halign(fa_center);

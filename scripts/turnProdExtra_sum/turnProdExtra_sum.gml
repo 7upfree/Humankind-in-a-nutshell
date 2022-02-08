@@ -3,7 +3,8 @@ function turnProdExtra_sum(){
 	faci_index(4)
 	+ autocracy
 	+ labourers1
-	+ labourers2;
+	+ labourers2
+	+ faci_index(13);
 	
 	return sum;
 }

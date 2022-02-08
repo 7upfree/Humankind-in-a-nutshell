@@ -612,8 +612,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Eng",
+    "path": "folders/Fonts/Eng.yy",
   },
   "resourceVersion": "1.0",
   "name": "eng70",

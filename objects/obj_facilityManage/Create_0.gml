@@ -24,4 +24,9 @@ facility_ship = 6;
 instance_create_layer(1545,640,"main01",obj_facility);
 facility_ship = 7;
 instance_create_layer(1725,640,"main01",obj_facility);
+
+facility_ship = 0;
+instance_create_layer(1618, 850, "main01", obj_faciArrow);
+facility_ship = 1;
+instance_create_layer(1830, 850, "main01", obj_faciArrow);
 #endregion

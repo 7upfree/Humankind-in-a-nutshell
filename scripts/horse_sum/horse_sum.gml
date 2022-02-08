@@ -4,7 +4,7 @@ function horse_sum(output){
 	
 	if (output == 0)	// food
 	{
-		sum = (ceil(faci_index(2)/2)*2)
+		sum = faci_index(2)*2
 	+ feudalism;
 	}
 	else				// prod

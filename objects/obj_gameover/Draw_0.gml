@@ -8,4 +8,15 @@ if (alp == 1)
 {
 	draw_set_alpha(alp2);
 	draw_text(960, 300, "GAME OVER");
+	
+	if (global.lang == 0)
+	{
+		draw_set_font(eng32);
+		draw_text(960, 700, "Press Backspace to go to the main menu ..");
+	}
+	else if (global.lang == 1)
+	{
+		draw_set_font(kor35);
+		draw_text(960, 700, "Backspace를 눌러 메인메뉴로 ..");
+	}
 }

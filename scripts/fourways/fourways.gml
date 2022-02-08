@@ -57,6 +57,14 @@ function fourways(type, isFacility, inverse){
 			draw_set_color(c_black);
 			draw_sprite_stretched(spr_symbol, type, mouse_x+(infobox_x/2)-25, mouse_y+80, 50, 50);
 			draw_set_font(eng26);
+			if (type == 69)
+			{
+				draw_set_font(eng20);
+			}
+			else if (type == 52)
+			{
+				draw_set_font(eng20);
+			}
 			draw_text(mouse_x+infobox_x/2,mouse_y+5, symbolDesc(type, 1));
 			draw_set_font(eng20);
 			draw_text(mouse_x+infobox_x/2,mouse_y+140, symbolDesc(type, 2));

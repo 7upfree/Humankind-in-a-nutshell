@@ -7,6 +7,7 @@ stageShip = 0;
 globalvar stageCur;
 stageCur = 0;
 global.stage = -1;
+global.greece = -1;
 
 repeat (stage_count)
 {

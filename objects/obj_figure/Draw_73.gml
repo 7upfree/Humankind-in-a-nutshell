@@ -17,4 +17,6 @@ if (mouse_x > x && mouse_x < x+160 && mouse_y > y && mouse_y < y+160 && notiOUT 
 	draw_text(mouse_x+225,mouse_y+120, string(global.figureP));
 	draw_set_font(eng32);
 	draw_text(mouse_x+225,mouse_y+240, "/" + string(global.figureMax));
+	draw_set_font(eng16);
+	draw_text(mouse_x+225,mouse_y+295, "+" + string(global.figureTurn) + "/turn");
 }

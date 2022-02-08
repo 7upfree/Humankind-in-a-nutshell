@@ -118,7 +118,7 @@ function facilityDesc(type, outcome){
 		}
 		else if (outcome == 2)
 		{
-			return "x2 gold earned by pearl"
+			return "x2 gold earned by pearl."
 		}
 	}
 	else if (type == 9)
@@ -134,6 +134,96 @@ function facilityDesc(type, outcome){
 		else if (outcome == 2)
 		{
 			return "Provide 1 production every\n20 turns"
+		}
+	}
+	else if (type == 10)
+	{
+		if (outcome == 0)
+		{
+			return 5;
+		}
+		else if (outcome == 1)
+		{
+			return "University"
+		}
+		else if (outcome == 2)
+		{
+			return "Every 1 University:\nfigure point +1/turn\n\n5 Universities:\nprovides a free figure."
+		}
+	}
+	else if (type == 11)
+	{
+		if (outcome == 0)
+		{
+			return 5;
+		}
+		else if (outcome == 1)
+		{
+			return "Bank"
+		}
+		else if (outcome == 2)
+		{
+			return "Every 1 Bank:\ngold +1/turn\n\n5 Banks:\nAll symbols cost 1 less gold."
+		}
+	}
+	else if (type == 12)
+	{
+		if (outcome == 0)
+		{
+			return 5;
+		}
+		else if (outcome == 1)
+		{
+			return "Press"
+		}
+		else if (outcome == 2)
+		{
+			return "Every 1 Press:\ninspiration +1/turn\n\n5 Presses:\nnone"
+		}
+	}
+	else if (type == 13)
+	{
+		if (outcome == 0)
+		{
+			return 5;
+		}
+		else if (outcome == 1)
+		{
+			return "Factory"
+		}
+		else if (outcome == 2)
+		{
+			return "Every 1 Factory:\nlabour +1/turn\n\n5 Factories:\n3 productions provided."
+		}
+	}
+	else if (type == 14)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Taj Mahal"
+		}
+		else if (outcome == 2)
+		{
+			return "+2 figure point/turn &\n+1 gold/turn"
+		}
+	}
+	else if (type == 15)
+	{
+		if (outcome == 0)
+		{
+			return 2;
+		}
+		else if (outcome == 1)
+		{
+			return "Cheomseongdae"
+		}
+		else if (outcome == 2)
+		{
+			return "Provides figure every\n10 telescopes."
 		}
 	}
 	else

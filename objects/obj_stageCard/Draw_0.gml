@@ -2,7 +2,14 @@ draw_self();
 
 draw_sprite(spr_stageIcon, stage_id, x+325, y+50);
 
-stageInfo(stage_id);
+if (global.lang == 0)
+{
+	stageInfo(stage_id);
+}
+else if (global.lang == 1)
+{
+	stageInfoKor(stage_id);
+}
 
 draw_play_button();
 

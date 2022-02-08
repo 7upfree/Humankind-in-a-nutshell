@@ -5,9 +5,9 @@ function faci_index(type){
 	{
 		if (type == 6)	// mine
 		{
-			if (facil_count[| index] > 5)
+			if (facil_count[| index] > 3)
 			{
-				return 5;
+				return 3;
 			}
 			else
 			{

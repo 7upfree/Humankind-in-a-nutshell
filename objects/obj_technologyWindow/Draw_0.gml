@@ -32,10 +32,20 @@ draw_reset();
 //inspiration count
 draw_set_colour(c_black);
 draw_set_alpha(0.5);
-draw_set_font(eng22);
-draw_text(40,40,"inspiration: ");
-draw_set_font(eng70);
-draw_text(370,20,string(inspiration));
+if (global.lang == 0)
+{
+	draw_set_font(eng22);
+	draw_text(75,40,"inspiration: ");
+	draw_set_font(eng70);
+	draw_text(400,20,string(inspiration));
+}
+else if (global.lang == 1)
+{
+	draw_set_font(kor35);
+	draw_text(75,40,"영감: ");
+	draw_set_font(eng70);
+	draw_text(250,20,string(inspiration));
+}
 draw_reset();
 
 //exit button

@@ -78,7 +78,7 @@ else if (era == 1 && obj_traitsBackground.trait_alpha > 1)
 	{
 		mercantilism = 1;
 	}
-	else if (traitsType == 6)
+	else if (traitsType == 26)
 	{
 		add_symbol(45);
 		add_symbol(45);

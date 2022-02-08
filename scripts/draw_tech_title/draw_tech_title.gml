@@ -88,7 +88,7 @@ function draw_tech_title(tech_id)
 	}
 	else if (tech_id == 16)
 	{
-		draw_text(x+xpos, y+ypos, "Economics");
+		draw_text(x+xpos, y+ypos, "Astronomy");
 		draw_tech_inspi(tech_require(tech_id));
 	}
 	else if (tech_id == 17)

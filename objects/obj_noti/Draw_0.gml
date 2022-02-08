@@ -6,9 +6,6 @@ if (pos < 6)
 	
 	if (unread)
 	{
-		//draw_reset();
-		//draw_set_color(c_red);
-		//draw_circle(x+366.5, y+1, 8, 0);
 		image_index = 1;
 	}
 	else

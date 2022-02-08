@@ -159,6 +159,20 @@ if (pyramid != -1)
 
 #endregion
 
+#region stage turn handling
+
+if (global.greece != -1)
+{
+	global.greece--;
+	if (global.greece == 0)
+	{
+		add_inspi(3);
+		global.greece = 10;
+	}
+}
+
+#endregion
+
 #region event handling
 
 var eventN = random(100);

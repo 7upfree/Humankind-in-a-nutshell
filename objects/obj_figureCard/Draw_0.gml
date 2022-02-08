@@ -8,4 +8,11 @@ else
 }
 
 draw_set_alpha(obj_figure.figure_alpha);
-figureInfo(figure_type);
+if (global.lang == 0)
+{
+	figureInfo(figure_type);
+}
+else if (global.lang == 1)
+{
+	figureInfoKor(figure_type);
+}

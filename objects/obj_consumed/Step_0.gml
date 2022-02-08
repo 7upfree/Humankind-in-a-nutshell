@@ -79,7 +79,7 @@ if (destroy_timer == 0)
 		}
 		else if (outcome < 9)
 		{
-			add_labour(irandom_range(5,10));
+			add_labour(irandom_range(5,10), 1);
 			add_noti(5);
 		}
 		else
@@ -205,6 +205,20 @@ if (destroy_timer == 0)
 	else if (type == 58)	// Telescope
 	{
 		add_inspi(5);
+		
+		if (global.cheomseongdae > -1)
+		{
+			global.cheomseongdae++;
+			
+			if (global.cheomseongdae == 10)
+			{
+				if (global.figurePick != 1)
+				{
+					global.figurePick = 1;
+					global.cheomseongdae = 0;
+				}
+			}
+		}
 	}
 	else if (type == 60)	// Order of Chivalry
 	{

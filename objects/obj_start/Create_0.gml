@@ -83,4 +83,5 @@ else
 	merchants2 = loadVar("merchants2");
 	prophets2 = loadVar("prophets2");
 	labourers2 = loadVar("labourers2");
+	global.greece = loadVar("greece");
 }
