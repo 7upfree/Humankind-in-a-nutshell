@@ -58,7 +58,7 @@ function tech_pos(techId, xy){
 		else {return y1+150+225;}
 	}
 #endregion
-#region Ancient Tree
+#region Medeival Tree
 	if (techId == 10)
 	{
 		if (xy == 0) {return xx+(onek*5);}
@@ -109,9 +109,61 @@ function tech_pos(techId, xy){
 		if (xy == 0) {return xx+(onek*9);}
 		else {return y2;}
 	}
-	else
+#endregion
+#region Modern Tree
+	else if (techId == 20)
 	{
-		if (xy == 0) {return xx+(onek*9);}
+		if (xy == 0) {return xx+(onek*10);}
+		else {return y1;}
+	}
+	else if (techId == 21)
+	{
+		if (xy == 0) {return xx+(onek*10);}
+		else {return y2;}
+	}
+	else if (techId == 22)
+	{
+		if (xy == 0) {return xx+(onek*10);}
+		else {return y3;}
+	}
+	else if (techId == 23)
+	{
+		if (xy == 0) {return xx+(onek*11);}
+		else {return y1;}
+	}
+	else if (techId == 24)
+	{
+		if (xy == 0) {return xx+(onek*11);}
+		else {return y2;}
+	}
+	else if (techId == 25)
+	{
+		if (xy == 0) {return xx+(onek*11);}
+		else {return y3;}
+	}
+	else if (techId == 26)
+	{
+		if (xy == 0) {return xx+(onek*12);}
+		else {return y1+150;}
+	}
+	else if (techId == 27)
+	{
+		if (xy == 0) {return xx+(onek*12);}
+		else {return y3;}
+	}
+	else if (techId == 28)
+	{
+		if (xy == 0) {return xx+(onek*13);}
+		else {return y1+150+225;}
+	}
+	else if (techId == 29)
+	{
+		if (xy == 0) {return xx+(onek*14);}
+		else {return y1+150+225;}
+	}
+	else if (techId == 30)
+	{
+		if (xy == 0) {return xx+(onek*15);}
 		else {return y1+150+225;}
 	}
 #endregion

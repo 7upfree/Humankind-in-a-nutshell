@@ -41,10 +41,10 @@ if (destroy_timer == 0)
 	}
 	else if (type == 13)	// Ancient Ruins
 	{
-		var outcome;
-		outcome = irandom(9);
+		var outcom;
+		outcom = irandom(9);
 		
-		if (outcome < 2)
+		if (outcom < 2)
 		{
 			add_symbol(irandom_range(5,6));
 			view_in_slot();
@@ -55,7 +55,7 @@ if (destroy_timer == 0)
 			
 			add_noti(2);
 		}
-		else if (outcome < 4)
+		else if (outcom < 4)
 		{
 			add_symbol(irandom_range(5,12));
 			view_in_slot();
@@ -64,7 +64,7 @@ if (destroy_timer == 0)
 			
 			add_noti(2);
 		}
-		else if (outcome < 5)
+		else if (outcom < 5)
 		{
 			add_symbol(choose(28, 36));
 			
@@ -72,12 +72,12 @@ if (destroy_timer == 0)
 			
 			add_noti(3);
 		}
-		else if (outcome < 7)
+		else if (outcom < 7)
 		{
 			add_gold(irandom_range(2,4));
 			add_noti(4);
 		}
-		else if (outcome < 9)
+		else if (outcom < 9)
 		{
 			add_labour(irandom_range(5,10), 1);
 			add_noti(5);

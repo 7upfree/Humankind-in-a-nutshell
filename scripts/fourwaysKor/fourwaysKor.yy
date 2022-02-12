@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Kor_Interface",
-    "path": "folders/Scripts/Interface/Kor_Interface.yy",
+    "name": "Basic",
+    "path": "folders/Scripts/Interface/Kor_Interface/Basic.yy",
   },
   "resourceVersion": "1.0",
   "name": "fourwaysKor",

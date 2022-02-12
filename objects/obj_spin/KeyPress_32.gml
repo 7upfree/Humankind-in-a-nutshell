@@ -107,9 +107,9 @@ soldout[| 3] = 0;
 
 #region barbarian handle
 
-var outcome = 0;
-outcome = irandom_range(1, 100);
-if (outcome < barbProb)
+var outcom = 0;
+outcom = irandom_range(1, 100);
+if (outcom < barbProb)
 {
 	var leader = 0;
 	leader = irandom(4);
@@ -153,21 +153,7 @@ if (pyramid != -1)
 	{
 		add_symbol(22);
 		view_in_slot();
-		pyramid = 10;
-	}
-}
-
-#endregion
-
-#region stage turn handling
-
-if (global.greece != -1)
-{
-	global.greece--;
-	if (global.greece == 0)
-	{
-		add_inspi(3);
-		global.greece = 10;
+		pyramid = 20;
 	}
 }
 

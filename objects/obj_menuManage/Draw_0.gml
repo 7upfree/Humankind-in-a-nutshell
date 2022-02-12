@@ -17,7 +17,7 @@ if (global.lang == 0)
 	draw_text(105,297,"by aevew");
 	draw_set_colour(c_white);
 	draw_set_font(eng26);
-	draw_text(105,326,"alpha v0.02.1");
+	draw_text(105,326,"alpha v0.02.2");
 }
 else if (global.lang == 1)
 {
@@ -34,5 +34,5 @@ else if (global.lang == 1)
 	draw_text(105,205,"by aevew");
 	draw_set_colour(c_white);
 	draw_set_font(eng26);
-	draw_text(105,234,"alpha v0.02.1");
+	draw_text(105,234,"alpha v0.02.2");
 }

@@ -10,9 +10,9 @@ else
 draw_set_alpha(obj_figure.figure_alpha);
 if (global.lang == 0)
 {
-	figureInfo(figure_type);
+	str_figure(figure_type);
 }
 else if (global.lang == 1)
 {
-	figureInfoKor(figure_type);
+	str_figureKor(figure_type);
 }

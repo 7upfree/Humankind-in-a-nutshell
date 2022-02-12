@@ -3,8 +3,8 @@ draw_self();
 #region draw symbol info
 if (symbol_type > 0)
 {
-	if (global.lang == 0)	{tradeInfo(symbol_type);}
-	else if (global.lang == 1)	{tradeInfoKor(symbol_type);}
+	if (global.lang == 0)	{str_trade(symbol_type);}
+	else if (global.lang == 1)	{str_tradeKor(symbol_type);}
 	draw_reset();
 	draw_set_color(c_black);
 	draw_set_font(eng26);

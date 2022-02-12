@@ -1,1 +1,2 @@
-image_speed = 0;
+submenu01 = 0;
+submenu02 = 0;

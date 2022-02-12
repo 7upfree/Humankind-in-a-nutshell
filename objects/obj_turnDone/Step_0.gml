@@ -66,7 +66,6 @@ if (global.turnDone == 1)
 		saveVar(merchants2, "merchants2");
 		saveVar(prophets2, "prophets2");
 		saveVar(labourers2, "labourers2");
-		saveVar(global.greece, "greece");
 		
 	}
 	

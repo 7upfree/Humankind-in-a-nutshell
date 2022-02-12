@@ -68,7 +68,7 @@ function completed(type){
 	{
 		owned[| object] = 0;
 		add_facility(9);
-		pyramid = 10;
+		pyramid = 20;
 	}
 	else if (type == 35)	// library site
 	{

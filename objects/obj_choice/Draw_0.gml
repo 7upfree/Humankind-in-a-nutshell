@@ -2,9 +2,9 @@ draw_self();
 
 if (global.lang == 0)
 {
-	choiceInfo(typeId);
+	str_choice(typeId);
 }
 else if (global.lang == 1)
 {
-	choiceInfoKor(typeId);
+	str_choiceKor(typeId);
 }

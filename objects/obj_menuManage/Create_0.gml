@@ -1,4 +1,3 @@
 alpha = 0;
 
-globalvar newGame;
-newGame = -1;
+global.newGame = -1;

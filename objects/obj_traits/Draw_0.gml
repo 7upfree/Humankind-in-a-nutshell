@@ -10,9 +10,9 @@ else
 draw_set_alpha(obj_traitsBackground.trait_alpha);
 if (global.lang == 0)
 {
-	traitsInfo(traitsShuffle[| traitsId]);
+	str_traits(traitsShuffle[| traitsId]);
 }
 else if (global.lang == 1)
 {
-	traitsInfoKor(traitsShuffle[| traitsId]);
+	str_traitsKor(traitsShuffle[| traitsId]);
 }

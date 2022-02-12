@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "STAGE",
-    "path": "folders/Sprites/OTHERS/STAGE.yy",
+    "name": "SCENARIO",
+    "path": "folders/Sprites/OTHERS/SCENARIO.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_play",
