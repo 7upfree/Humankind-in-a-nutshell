@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "isTurnConsType",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Type",
     "path": "folders/Scripts/isFunctions/Type.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "isTurnConsType",
-  "tags": [],
-  "resourceType": "GMScript",
 }
